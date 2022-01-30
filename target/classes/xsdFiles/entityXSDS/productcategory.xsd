@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="ProductCategory" type="ProductCategoryType"/>
+    <xs:complexType name="prodCategoryType">
+        <xs:sequence>
+            <xs:element name="productID">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="1"/>
+                        <xs:enumeration value="2"/>
+                        <xs:enumeration value="3"/>
+                        <xs:enumeration value="4"/>
+                        <xs:enumeration value="5"/>
+                        <xs:enumeration value="6"/>
+                        <xs:enumeration value="7"/>
+                        <xs:enumeration value="8"/>
+                        <xs:enumeration value="9"/>
+                        <xs:enumeration value="10"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element type="xs:string" name="title"/>
+            <xs:element name="metaTitle">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="Walnut Superior Chess Board"/>
+                        <xs:enumeration value="2021 St.Louis Rapid Pieces"/>
+                        <xs:enumeration value="DGT Chess Clock"/>
+                        <xs:enumeration value="Mastering the Middle Game"/>
+                        <xs:enumeration value="Chess Base 16"/>
+                        <xs:enumeration value="E-Gift Card"/>
+                        <xs:enumeration value="Chess Bags"/>
+                        <xs:enumeration value="USCF Coffee Cup"/>
+                        <xs:enumeration value="Anthology of Chess"/>
+                        <xs:enumeration value="Chess Score Pad"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="productName">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="Walnut Burl and Maple Superior Contemporary Chess Board"/>
+                        <xs:enumeration value="2021 St.Louis Rapid and Blitz Official Chess Pieces"/>
+                        <xs:enumeration value="DGT North American Digital Chess Clock"/>
+                        <xs:enumeration value="Mastering the Middle Game 1 - EMPIRE CHESS"/>
+                        <xs:enumeration value="Chess Base 16 Premium 2022 Edition"/>
+                        <xs:enumeration value="Email Gift Card"/>
+                        <xs:enumeration value="Competition Chess Bag"/>
+                        <xs:enumeration value="US Chess Federation Coffee Cup"/>
+                        <xs:enumeration value="Anthology of Chess Problems 2345"/>
+                        <xs:enumeration value="Chess Players Score Pad"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+        </xs:sequence>
+        <xs:attribute type="xs:string" name="id" use="optional"/>
+    </xs:complexType>
+    <xs:complexType name="ProductCategoryType">
+        <xs:sequence>
+            <xs:element type="prodCategoryType" name="prodCategory" maxOccurs="unbounded" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>

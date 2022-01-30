@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="City" type="CityType"/>
+    <xs:complexType name="cityType">
+        <xs:sequence>
+            <xs:element name="countryID">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="1"/>
+                        <xs:enumeration value="2"/>
+                        <xs:enumeration value="3"/>
+                        <xs:enumeration value="4"/>
+                        <xs:enumeration value="5"/>
+                        <xs:enumeration value="6"/>
+                        <xs:enumeration value="7"/>
+                        <xs:enumeration value="8"/>
+                        <xs:enumeration value="9"/>
+                        <xs:enumeration value="10"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="cityName">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="Scottsdale"/>
+                        <xs:enumeration value="Garland"/>
+                        <xs:enumeration value="Rochester"/>
+                        <xs:enumeration value="Buffalo"/>
+                        <xs:enumeration value="Atlanta"/>
+                        <xs:enumeration value="New York"/>
+                        <xs:enumeration value="Jersey City"/>
+                        <xs:enumeration value="Colorado Springs"/>
+                        <xs:enumeration value="St. Louis"/>
+                        <xs:enumeration value="Philadelphia"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="location">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="33.68342,-111.95136"/>
+                        <xs:enumeration value="32.93313,-96.62129"/>
+                        <xs:enumeration value="43.15440,-77.61560"/>
+                        <xs:enumeration value="42.89446,-78.88692"/>
+                        <xs:enumeration value="33.74860,-84.38840"/>
+                        <xs:enumeration value="40.75080,-73.99612"/>
+                        <xs:enumeration value="40.74472,-74.02999"/>
+                        <xs:enumeration value="38.82989,-104.93665"/>
+                        <xs:enumeration value="38.63137,-90.19238"/>
+                        <xs:enumeration value="39.95250,-75.16440"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="postalCode">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="85054"/>
+                        <xs:enumeration value="75040"/>
+                        <xs:enumeration value="14602"/>
+                        <xs:enumeration value="14201"/>
+                        <xs:enumeration value="30301"/>
+                        <xs:enumeration value="10001"/>
+                        <xs:enumeration value="07030"/>
+                        <xs:enumeration value="80829"/>
+                        <xs:enumeration value="63101"/>
+                        <xs:enumeration value="19019"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="lastUpdate">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="2021-07-25T14:40:08.479Z"/>
+                        <xs:enumeration value="2021-12-13T14:38:44.219Z"/>
+                        <xs:enumeration value="2021-07-02T18:47:08.617Z"/>
+                        <xs:enumeration value="2021-02-15T01:24:28.443Z"/>
+                        <xs:enumeration value="2021-10-11T10:55:09.784Z"/>
+                        <xs:enumeration value="2021-05-17T01:56:51.774Z"/>
+                        <xs:enumeration value="2021-12-25T07:24:48.461Z"/>
+                        <xs:enumeration value="2021-08-05T08:19:27.546Z"/>
+                        <xs:enumeration value="2021-02-27T19:33:25.083Z"/>
+                        <xs:enumeration value="2021-09-21T12:29:07.849Z"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+        </xs:sequence>
+        <xs:attribute type="xs:string" name="id" use="optional"/>
+    </xs:complexType>
+    <xs:complexType name="CityType">
+        <xs:sequence>
+            <xs:element type="cityType" name="city" maxOccurs="unbounded" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>

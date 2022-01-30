@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="User" type="UserType"/>
+    <xs:complexType name="userType">
+        <xs:sequence>
+            <xs:element type="xs:string" name="employeesID"/>
+            <xs:element name="firstName">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="Annette"/>
+                        <xs:enumeration value="Ron"/>
+                        <xs:enumeration value="Paolo"/>
+                        <xs:enumeration value="Harvey"/>
+                        <xs:enumeration value="Lexie"/>
+                        <xs:enumeration value="Tiffany"/>
+                        <xs:enumeration value="Clark"/>
+                        <xs:enumeration value="Minnie"/>
+                        <xs:enumeration value="Mallie"/>
+                        <xs:enumeration value="Alexandra"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="middleName">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="Emily"/>
+                        <xs:enumeration value="James"/>
+                        <xs:enumeration value="Charles"/>
+                        <xs:enumeration value="William"/>
+                        <xs:enumeration value="Jessica"/>
+                        <xs:enumeration value="Paul"/>
+                        <xs:enumeration value="n/a"/>
+                        <xs:enumeration value="Dawn"/>
+                        <xs:enumeration value="Michelle"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="lastName">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="Smith"/>
+                        <xs:enumeration value="Jones"/>
+                        <xs:enumeration value="Peterson"/>
+                        <xs:enumeration value="Porter"/>
+                        <xs:enumeration value="Matthews"/>
+                        <xs:enumeration value="Carlson"/>
+                        <xs:enumeration value="Preacher"/>
+                        <xs:enumeration value="Patel"/>
+                        <xs:enumeration value="Rubino"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="mobile">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="3268408450"/>
+                        <xs:enumeration value="2522041585"/>
+                        <xs:enumeration value="7239549421"/>
+                        <xs:enumeration value="2769596780"/>
+                        <xs:enumeration value="8704130363"/>
+                        <xs:enumeration value="5357120679"/>
+                        <xs:enumeration value="5772590538"/>
+                        <xs:enumeration value="5188354388"/>
+                        <xs:enumeration value="2487656027"/>
+                        <xs:enumeration value="8039059296"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="email">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="annette74@yahoo.com"/>
+                        <xs:enumeration value="ron47@gmail.com"/>
+                        <xs:enumeration value="paolo_williamson6@hotmail.com"/>
+                        <xs:enumeration value="harvey.von@yahoo.com"/>
+                        <xs:enumeration value="lexie13@hotmail.com"/>
+                        <xs:enumeration value="tiffany17@hotmail.com"/>
+                        <xs:enumeration value="clark_ratke95@hotmail.com"/>
+                        <xs:enumeration value="minnie_dickens5@yahoo.com"/>
+                        <xs:enumeration value="mallie69@gmail.com"/>
+                        <xs:enumeration value="alexandra_christiansen@yahoo.com"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="password">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="fHMpqaPGW9e7sy3W"/>
+                        <xs:enumeration value="3xcfJjPrBmZjVhJF"/>
+                        <xs:enumeration value="cEQzrJsNYkb6L7kp"/>
+                        <xs:enumeration value="cdS2Y2v5yn3zZ6gM"/>
+                        <xs:enumeration value="FxsKzbtHEBgUp2jV"/>
+                        <xs:enumeration value="BH2uyTAqpL2UxqsE"/>
+                        <xs:enumeration value="ZWHqzbKajQV6KWkq"/>
+                        <xs:enumeration value="wpmBYJY7xdcNu9cc"/>
+                        <xs:enumeration value="MzY8ry6EnYWgQ9pS"/>
+                        <xs:enumeration value="nFUm9ASZ8tEswGMP"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="userName">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="Annette1"/>
+                        <xs:enumeration value="Ron1"/>
+                        <xs:enumeration value="Paolo1"/>
+                        <xs:enumeration value="Harvey1"/>
+                        <xs:enumeration value="Lexie1"/>
+                        <xs:enumeration value="Tiffany1"/>
+                        <xs:enumeration value="Clark1"/>
+                        <xs:enumeration value="Minnie1"/>
+                        <xs:enumeration value="Mallie1"/>
+                        <xs:enumeration value="Alexandra1"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="timeCreated">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="2021-10-18T10:15:17.075Z"/>
+                        <xs:enumeration value="2021-08-02T04:40:41.532Z"/>
+                        <xs:enumeration value="2021-05-23T23:44:54.252Z"/>
+                        <xs:enumeration value="2021-04-09T05:24:48.526Z"/>
+                        <xs:enumeration value="2021-05-12T12:59:16.699Z"/>
+                        <xs:enumeration value="2021-10-27T15:52:38.749Z"/>
+                        <xs:enumeration value="2021-12-14T22:40:30.748Z"/>
+                        <xs:enumeration value="2021-09-26T08:45:33.897Z"/>
+                        <xs:enumeration value="2021-04-28T18:02:07.922Z"/>
+                        <xs:enumeration value="2021-11-29T18:01:07.472Z"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="lastLogin">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="2021-12-02T13:26:48.976Z"/>
+                        <xs:enumeration value="2021-08-28T22:15:35.043Z"/>
+                        <xs:enumeration value="2021-06-01T18:28:47.347Z"/>
+                        <xs:enumeration value="2021-04-21T06:04:29.732Z"/>
+                        <xs:enumeration value="2021-07-25T18:16:39.059Z"/>
+                        <xs:enumeration value="2021-11-01T05:41:16.751Z"/>
+                        <xs:enumeration value="2022-01-02T09:17:44.801Z"/>
+                        <xs:enumeration value="2021-10-13T19:52:17.639Z"/>
+                        <xs:enumeration value="2021-05-28T22:53:26.154Z"/>
+                        <xs:enumeration value="2021-12-04T03:33:36.928Z"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+        </xs:sequence>
+        <xs:attribute type="xs:string" name="id" use="optional"/>
+    </xs:complexType>
+    <xs:complexType name="UserType">
+        <xs:sequence>
+            <xs:element type="userType" name="user" maxOccurs="unbounded" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>

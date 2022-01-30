@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Employees>
+    <emp id="1">
+        <!--Customer Service Representative -->
+        <jobsID>1</jobsID>
+        <departmentsID>7</departmentsID>
+        <mobile>5366737259</mobile>
+        <email>charlesb@thechessshop.com</email>
+        <hireDate>2021-01-02</hireDate>
+        <jobID>4684090827A</jobID>
+        <salary>$37720.00</salary>
+        <managerID>677873266X</managerID>
+        <departmentID>1</departmentID>
+    </emp>
+    <emp id="2">
+        <!--Marketing Specialist -->
+        <jobsID>2</jobsID>
+        <departmentsID>8</departmentsID>
+        <mobile>4659490749</mobile>
+        <email>victoriax@thechessshop.com</email>
+        <hireDate>2021-01-03</hireDate>
+        <jobID>71432A870B</jobID>
+        <salary>$72330.00</salary>
+        <managerID>986706674W</managerID>
+        <departmentID>2</departmentID>
+    </emp>
+    <emp id="3">
+        <!--SEO Content Writer -->
+        <jobsID>3</jobsID>
+        <departmentsID>9</departmentsID>
+        <mobile>8157385670</mobile>
+        <email>danielb@thechessshop.com</email>
+        <hireDate>2021-01-06</hireDate>
+        <jobID>356328432C</jobID>
+        <salary>$43500.00</salary>
+        <managerID>304428323V</managerID>
+        <departmentID>3</departmentID>
+    </emp>
+    <emp id="4">
+        <!--Warehouse Worker-->
+        <jobsID>4</jobsID>
+        <departmentsID>10</departmentsID>
+        <mobile>8169166103</mobile>
+        <email>chrisn@thechessshop.com</email>
+        <hireDate>2021-03-01</hireDate>
+        <jobID>0719380910D</jobID>
+        <salary>$33840.00</salary>
+        <managerID>546828543U</managerID>
+        <departmentID>4</departmentID>
+    </emp>
+    <emp id="5">
+        <!--Administrative Assistant-->
+        <jobsID>5</jobsID>
+        <departmentsID>11</departmentsID>
+        <mobile>9343938444</mobile>
+        <email>miguelr@thechessshop.com</email>
+        <hireDate>2021-05-19</hireDate>
+        <jobID>715677862E</jobID>
+        <salary>$40000.00</salary>
+        <managerID>304428323V</managerID>
+        <departmentID>5</departmentID>
+    </emp>
+    <emp id="6">
+        <!--Retention Specialist-->
+        <jobsID>6</jobsID>
+        <departmentsID>12</departmentsID>
+        <mobile>6203781301</mobile>
+        <email>nathanield@thechessshop.com</email>
+        <hireDate>2021-06-01</hireDate>
+        <jobID>118986405F</jobID>
+        <salary>$41000.00</salary>
+        <managerID>677873266X</managerID>
+        <departmentID>6</departmentID>
+    </emp>
+    <emp id="7">
+        <!--UX Designer-->
+        <jobsID>7</jobsID>
+        <departmentsID>13</departmentsID>
+        <mobile>9315771458</mobile>
+        <email>ilissak@thechessshop.com</email>
+        <hireDate>2021-08-06</hireDate>
+        <jobID>9138033561G</jobID>
+        <salary>$115743.00</salary>
+        <managerID>4504399212P</managerID>
+        <departmentID>7</departmentID>
+    </emp>
+    <emp id="8">
+        <!--Community Builder-->
+        <jobsID>8</jobsID>
+        <departmentsID>14</departmentsID>
+        <mobile>7006707747</mobile>
+        <email>peterp@thechessshop.com</email>
+        <hireDate>2021-10-28</hireDate>
+        <jobID>621118036H</jobID>
+        <salary>$49963.00</salary>
+        <managerID>677873266X</managerID>
+        <departmentID>8</departmentID>
+    </emp>
+    <emp id="9">
+        <!--Front End Web Developer-->
+        <jobsID>9</jobsID>
+        <departmentsID>15</departmentsID>
+        <mobile>2222452794</mobile>
+        <email>rachelz@thechessshop.com</email>
+        <hireDate>2021-12-18</hireDate>
+        <jobID>0869702248I</jobID>
+        <salary>$73157.00</salary>
+        <managerID>304428323V</managerID>
+        <departmentID>9</departmentID>
+    </emp>
+    <emp id="10">
+        <!--Software Developer-->
+        <jobsID>10</jobsID>
+        <departmentsID>16</departmentsID>
+        <mobile>5187230941</mobile>
+        <email>briany@thechessshop.com</email>
+        <hireDate>2022-01-04</hireDate>
+        <jobID>243272408J</jobID>
+        <salary>$73153.00</salary>
+        <managerID>304428323V</managerID>
+        <departmentID>10</departmentID>
+    </emp>
+    <emp id="11">
+        <!--IT Technician -->
+        <jobsID>11</jobsID>
+        <departmentsID>17</departmentsID>
+        <mobile>8584555538</mobile>
+        <email>jackn@thechessshop.com</email>
+        <hireDate>2021-04-09</hireDate>
+        <jobID>0715821170K</jobID>
+        <salary>$71333.00</salary>
+        <managerID>304428323V</managerID>
+        <departmentID>11</departmentID>
+    </emp>
+    <emp id="12">
+        <!--Business Analyst-->
+        <jobsID>12</jobsID>
+        <departmentsID>18</departmentsID>
+        <mobile>5605938700</mobile>
+        <email>emilyb@thechessshop.com</email>
+        <hireDate>2021-07-02</hireDate>
+        <jobID>6678446535L</jobID>
+        <salary>$78943.00</salary>
+        <managerID>145117851Y</managerID>
+        <departmentID>12</departmentID>
+    </emp>
+    <emp id="13">
+        <!--Graphic Designer-->
+        <jobsID>13</jobsID>
+        <departmentsID>19</departmentsID>
+        <mobile>6863388463</mobile>
+        <email>andrewk@thechessshop.com</email>
+        <hireDate>2021-08-08</hireDate>
+        <jobID>693277579M</jobID>
+        <salary>$47032.00</salary>
+        <managerID>986706674W</managerID>
+        <departmentID>13</departmentID>
+    </emp>
+    <emp id="14">
+        <!--Supply Chain Manager-->
+        <jobsID>14</jobsID>
+        <departmentsID>20</departmentsID>
+        <mobile>4185466234</mobile>
+        <email>ianm@thechessshop.com</email>
+        <hireDate>2021-09-13</hireDate>
+        <jobID>546828543U</jobID>
+        <salary>$112556.00</salary>
+        <managerID>546828543U</managerID>
+        <departmentID>14</departmentID>
+    </emp>
+    <emp id="15">
+        <!--Digital Operations Manager-->
+        <jobsID>15</jobsID>
+        <departmentsID>21</departmentsID>
+        <mobile>9544219673</mobile>
+        <email>paulb@thechessshop.com</email>
+        <hireDate>2021-09-18</hireDate>
+        <jobID>304428323V</jobID>
+        <salary>$71153.00</salary>
+        <managerID>304428323V</managerID>
+        <departmentID>15</departmentID>
+    </emp>
+    <emp id="16">
+        <!--Digital Marketing Manager-->
+        <jobsID>16</jobsID>
+        <departmentsID>22</departmentsID>
+        <mobile>4374994413</mobile>
+        <email>robynr@thechessshop.com</email>
+        <hireDate>2022-06-03</hireDate>
+        <jobID>986706674W</jobID>
+        <salary>$110230.00</salary>
+        <managerID>986706674W</managerID>
+        <departmentID>16</departmentID>
+    </emp>
+    <emp id="17">
+        <!--Customer Satisfaction Manager-->
+        <jobsID>17</jobsID>
+        <departmentsID>23</departmentsID>
+        <mobile>9736287033</mobile>
+        <email>briannab@thechessshop.com</email>
+        <hireDate>2022-06-30</hireDate>
+        <jobID>677873266X</jobID>
+        <salary>$59890.00</salary>
+        <managerID>677873266X</managerID>
+        <departmentID>17</departmentID>
+    </emp>
+    <emp id="18">
+        <!--Financial Manager-->
+        <jobsID>18</jobsID>
+        <departmentsID>24</departmentsID>
+        <mobile>9587834226</mobile>
+        <email>benjamint@thechessshop.com</email>
+        <hireDate>2022-07-12</hireDate>
+        <jobID>145117851Y</jobID>
+        <salary>$134180.00</salary>
+        <managerID>145117851Y</managerID>
+        <departmentID>18</departmentID>
+    </emp>
+    <emp id="19">
+        <!--Director of Ecommerce-->
+        <jobsID>19</jobsID>
+        <departmentsID>25</departmentsID>
+        <mobile>2124822680</mobile>
+        <email>garryv@thechessshop.com</email>
+        <hireDate>2022-07-16</hireDate>
+        <jobID>171609958Z</jobID>
+        <salary>$153517.00</salary>
+        <managerID>171609958Z</managerID>
+        <departmentID>19</departmentID>
+    </emp>
+</Employees>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="Transaction" type="TransactionType"/>
+    <xs:complexType name="transType">
+        <xs:sequence>
+            <xs:element name="userID">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="1"/>
+                        <xs:enumeration value="2"/>
+                        <xs:enumeration value="3"/>
+                        <xs:enumeration value="4"/>
+                        <xs:enumeration value="5"/>
+                        <xs:enumeration value="6"/>
+                        <xs:enumeration value="7"/>
+                        <xs:enumeration value="8"/>
+                        <xs:enumeration value="9"/>
+                        <xs:enumeration value="10"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element type="xs:string" name="status"/>
+            <xs:element name="sku">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="HN1QMX59FP"/>
+                        <xs:enumeration value="W2OI26QPLG"/>
+                        <xs:enumeration value="E4UN1V3MPG"/>
+                        <xs:enumeration value="OXBF66NP5N"/>
+                        <xs:enumeration value="OIZ459IPGG"/>
+                        <xs:enumeration value="RY34SG3LXY"/>
+                        <xs:enumeration value="AL9AJI7SKP"/>
+                        <xs:enumeration value="U1C5J1OZ9V"/>
+                        <xs:enumeration value="R602I8YTTL"/>
+                        <xs:enumeration value="J0KJ3T7X8W"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="timeCreated">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="2021-04-18T12:23:32.982Z"/>
+                        <xs:enumeration value="2021-01-24T05:03:27.481Z"/>
+                        <xs:enumeration value="2021-03-02T05:12:45.442Z"/>
+                        <xs:enumeration value="2021-10-30T00:55:59.369Z"/>
+                        <xs:enumeration value="2021-04-08T01:34:13.044Z"/>
+                        <xs:enumeration value="2021-11-06T18:05:56.368Z"/>
+                        <xs:enumeration value="2021-05-15T16:37:23.449Z"/>
+                        <xs:enumeration value="2021-08-15T15:09:58.664Z"/>
+                        <xs:enumeration value="2022-01-01T19:19:32.596Z"/>
+                        <xs:enumeration value="2021-04-07T19:58:10.785Z"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element type="xs:string" name="approvalStatus"/>
+        </xs:sequence>
+        <xs:attribute type="xs:string" name="id" use="optional"/>
+    </xs:complexType>
+    <xs:complexType name="TransactionType">
+        <xs:sequence>
+            <xs:element type="transType" name="trans" maxOccurs="unbounded" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>

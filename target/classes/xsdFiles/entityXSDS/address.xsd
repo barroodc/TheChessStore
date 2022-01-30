@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="Address" type="AddressType"/>
+    <xs:complexType name="addrType">
+        <xs:sequence>
+            <xs:element name="cityID">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="1"/>
+                        <xs:enumeration value="2"/>
+                        <xs:enumeration value="3"/>
+                        <xs:enumeration value="4"/>
+                        <xs:enumeration value="5"/>
+                        <xs:enumeration value="6"/>
+                        <xs:enumeration value="7"/>
+                        <xs:enumeration value="8"/>
+                        <xs:enumeration value="9"/>
+                        <xs:enumeration value="10"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="streetAddress">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="14 Howel Lane"/>
+                        <xs:enumeration value="394 Jefferson Street"/>
+                        <xs:enumeration value="2670 Charmaine Lane"/>
+                        <xs:enumeration value="1487 Charles Street"/>
+                        <xs:enumeration value="4869 River Road"/>
+                        <xs:enumeration value="2196 Irish Lane"/>
+                        <xs:enumeration value="4188 Wiseman Street"/>
+                        <xs:enumeration value="4188 Seth Street"/>
+                        <xs:enumeration value="3363 Lynch Street"/>
+                        <xs:enumeration value="2976 Burnside Court"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="buildingNumber">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="n/a"/>
+                        <xs:enumeration value="5A"/>
+                        <xs:enumeration value="16B"/>
+                        <xs:enumeration value="17C"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="lastUpdate">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="2021-11-04T16:57:53.962Z"/>
+                        <xs:enumeration value="2021-01-02T03:48:22.638Z"/>
+                        <xs:enumeration value="2021-11-20T06:29:33.159Z"/>
+                        <xs:enumeration value="2021-06-29T12:18:25.486Z"/>
+                        <xs:enumeration value="2021-03-18T22:32:24.460Z"/>
+                        <xs:enumeration value="2021-02-07T14:51:34.915Z"/>
+                        <xs:enumeration value="2021-10-29T19:42:29.436Z"/>
+                        <xs:enumeration value="2021-10-25T05:42:23.805Z"/>
+                        <xs:enumeration value="2021-11-07T05:53:04.984Z"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+        </xs:sequence>
+        <xs:attribute type="xs:string" name="id" use="optional"/>
+    </xs:complexType>
+    <xs:complexType name="AddressType">
+        <xs:sequence>
+            <xs:element type="addrType" name="addr" maxOccurs="unbounded" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<ItemsInCart>
+    <cartItems id="1">
+        <productID>1</productID>
+        <productName>Walnut Burl and Maple Superior Contemporary Chess Board</productName>
+        <sku>HN1QMX59FP</sku>
+        <price>$695.00</price>
+        <subtotalOfItems>$695.00</subtotalOfItems>
+        <discount>25%</discount>
+        <quantity>1</quantity>
+        <timeCreated>2021-04-30T21:37:36.670Z</timeCreated>
+        <cartUpdated>2021-04-30T21:45:36.670Z</cartUpdated>
+    </cartItems>
+    <cartItems id="2">
+        <productID>2</productID>
+        <productName>2021 St.Louis Rapid and Blitz Official Chess Pieces</productName>
+        <sku>W2OI26QPLG</sku>
+        <price>$2495.00</price>
+        <subtotalOfItems>$2495.00</subtotalOfItems>
+        <discount>30%</discount>
+        <quantity>1</quantity>
+        <timeCreated>2021-08-18T02:31:52.285Z</timeCreated>
+        <cartUpdated>2021-08-18T02:45:52.285Z</cartUpdated>
+    </cartItems>
+    <cartItems id="3">
+        <productID>3</productID>
+        <productName>DGT North American Digital Chess Clock</productName>
+        <sku>E4UN1V3MPG</sku>
+        <price>$49.95</price>
+        <subtotalOfItems>$49.95</subtotalOfItems>
+        <discount>15%</discount>
+        <quantity>1</quantity>
+        <timeCreated>2021-01-16T11:33:14.297Z</timeCreated>
+        <cartUpdated>2021-01-16T12:33:14.297Z</cartUpdated>
+    </cartItems>
+    <cartItems id="4">
+        <productID>4</productID>
+        <productName>Mastering the Middle Game 1 - EMPIRE CHESS</productName>
+        <sku>OXBF66NP5N</sku>
+        <price>$34.95</price>
+        <subtotalOfItems>$34.95</subtotalOfItems>
+        <discount>15%</discount>
+        <quantity>1</quantity>
+        <timeCreated>2021-01-08T06:28:53.186Z</timeCreated>
+        <cartUpdated>2021-01-08T06:57:53.186Z</cartUpdated>
+    </cartItems>
+    <cartItems id="5">
+        <productID>5</productID>
+        <productName>Chess Base 16 Premium 2022 Edition</productName>
+        <sku>OIZ459IPGG</sku>
+        <price>$469.95</price>
+        <subtotalOfItems>$469.95</subtotalOfItems>
+        <discount>25%</discount>
+        <quantity>1</quantity>
+        <timeCreated>2021-09-17T13:43:45.722Z</timeCreated>
+        <cartUpdated>2021-09-17T14:01:45.722Z</cartUpdated>
+    </cartItems>
+    <cartItems id="6">
+        <productID>6</productID>
+        <productName>Email Gift Card</productName>
+        <sku>RY34SG3LXY</sku>
+        <price>$25.00</price>
+        <subtotalOfItems>$25.00</subtotalOfItems>
+        <discount>15%</discount>
+        <quantity>1</quantity>
+        <timeCreated>2021-03-17T20:40:22.455Z</timeCreated>
+        <cartUpdated>2021-03-17T21:59:22.455Z</cartUpdated>
+    </cartItems>
+    <cartItems id="7">
+        <productID>7</productID>
+        <productName>Competition Chess Bag</productName>
+        <sku>AL9AJI7SKP</sku>
+        <price>$11.95</price>
+        <subtotalOfItems>$11.95</subtotalOfItems>
+        <discount>15%</discount>
+        <quantity>1</quantity>
+        <timeCreated>2021-12-10T09:21:47.045Z</timeCreated>
+        <cartUpdated>2021-12-10T10:26:47.045Z</cartUpdated>
+    </cartItems>
+    <cartItems id="8">
+        <productID>8</productID>
+        <productName>US Chess Federation Coffee Cup</productName>
+        <sku>U1C5J1OZ9V</sku>
+        <price>$12.95</price>
+        <subtotalOfItems>$12.95</subtotalOfItems>
+        <discount>15%</discount>
+        <quantity>1</quantity>
+        <timeCreated>2021-12-29T19:48:55.978Z</timeCreated>
+        <cartUpdated>2021-12-29T19:52:55.978Z</cartUpdated>
+    </cartItems>
+    <cartItems id="9">
+        <productID>9</productID>
+        <productName>Anthology of Chess Problems 2345</productName>
+        <sku>R602I8YTTL</sku>
+        <price>$55.95</price>
+        <subtotalOfItems>$55.95</subtotalOfItems>
+        <discount>15%</discount>
+        <quantity>1</quantity>
+        <timeCreated>2021-10-15T11:14:46.894Z</timeCreated>
+        <cartUpdated>2021-10-15T11:17:21.894Z</cartUpdated>
+    </cartItems>
+    <cartItems id="10">
+        <productID>10</productID>
+        <productName>Chess Players Score Pad</productName>
+        <sku>J0KJ3T7X8W</sku>
+        <price>$2.95</price>
+        <subtotalOfItems>$2.95</subtotalOfItems>
+        <discount>15%</discount>
+        <quantity>1</quantity>
+        <timeCreated>2021-04-30T13:34:31.906Z</timeCreated>
+        <cartUpdated>2021-04-30T13:40:45.906Z</cartUpdated>
+    </cartItems>
+</ItemsInCart>

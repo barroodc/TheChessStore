@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="Departments" type="DepartmentsType"/>
+    <xs:complexType name="deptType">
+        <xs:sequence>
+            <xs:element name="departmentsName">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="Chess Materials"/>
+                        <xs:enumeration value="Events"/>
+                        <xs:enumeration value="Continuing Education"/>
+                        <xs:enumeration value="Clothing"/>
+                        <xs:enumeration value="Traveling"/>
+                        <xs:enumeration value="Service"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+        </xs:sequence>
+        <xs:attribute type="xs:string" name="id" use="optional"/>
+    </xs:complexType>
+    <xs:complexType name="DepartmentsType">
+        <xs:sequence>
+            <xs:element type="deptType" name="dept" maxOccurs="unbounded" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>

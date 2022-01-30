@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<ProductSupplier>
+    <prodSupplier id="1">
+        <productID>1</productID>
+        <supplierName>ChessStoriumEmporium</supplierName>
+        <categoryOfProducts>Chess Boards</categoryOfProducts>
+    </prodSupplier>
+    <prodSupplier id="2">
+        <productID>2</productID>
+        <supplierName>ChessStoriumEmporium</supplierName>
+        <categoryOfProducts>Chess Pieces</categoryOfProducts>
+    </prodSupplier>
+    <prodSupplier id="3">
+        <productID>3</productID>
+        <supplierName>ChessStoriumEmporium</supplierName>
+        <categoryOfProducts>Chess Clocks</categoryOfProducts>
+    </prodSupplier>
+    <prodSupplier id="4">
+        <productID>4</productID>
+        <supplierName>ChessStoriumEmporium</supplierName>
+        <categoryOfProducts>Software</categoryOfProducts>
+    </prodSupplier>
+    <prodSupplier id="5">
+        <productID>5</productID>
+        <supplierName>ChessStoriumEmporium</supplierName>
+        <categoryOfProducts>Software</categoryOfProducts>
+    </prodSupplier>
+    <prodSupplier id="6">
+        <productID>6</productID>
+        <supplierName>ChessStoriumEmporium</supplierName>
+        <categoryOfProducts>Gift Cards</categoryOfProducts>
+    </prodSupplier>
+    <prodSupplier id="7">
+        <productID>7</productID>
+        <supplierName>ChessStoriumEmporium</supplierName>
+        <categoryOfProducts>Chess Bags</categoryOfProducts>
+    </prodSupplier>
+    <prodSupplier id="8">
+        <productID>8</productID>
+        <supplierName>ChessStoriumEmporium</supplierName>
+        <categoryOfProducts>Coffee Cups</categoryOfProducts>
+    </prodSupplier>
+    <prodSupplier id="9">
+        <productID>9</productID>
+        <supplierName>ChessStoriumEmporium</supplierName>
+        <categoryOfProducts>Software</categoryOfProducts>
+    </prodSupplier>
+    <prodSupplier id="10">
+        <productID>10</productID>
+        <supplierName>ChessStoriumEmporium</supplierName>
+        <categoryOfProducts>Chess Books</categoryOfProducts>
+    </prodSupplier>
+</ProductSupplier>

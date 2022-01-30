@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Jobs>
+    <jobs id="1">
+        <jobTitle>Customer Service Representative</jobTitle>
+        <positionSalary>$37720.00</positionSalary>
+        <minSalary>$30315.00</minSalary>
+        <maxSalary>$45125.00</maxSalary>
+    </jobs>
+    <jobs id="2">
+        <jobTitle>Marketing Specialist</jobTitle>
+        <positionSalary>$72330.00</positionSalary>
+        <minSalary>$53315.00</minSalary>
+        <maxSalary>$91345.00</maxSalary>
+    </jobs>
+    <jobs id="3">
+        <jobTitle>SEO Content Writer</jobTitle>
+        <positionSalary>$43500.00</positionSalary>
+        <minSalary>$31655.00</minSalary>
+        <maxSalary>$55345.00</maxSalary>
+    </jobs>
+    <jobs id="4">
+        <jobTitle>Warehouse Worker</jobTitle>
+        <positionSalary>$33840.00</positionSalary>
+        <minSalary>$21735.00</minSalary>
+        <maxSalary>$45945.00</maxSalary>
+    </jobs>
+    <jobs id="5">
+        <jobTitle>Administrative Assistant</jobTitle>
+        <positionSalary>$40000.00</positionSalary>
+        <minSalary>$30000.00</minSalary>
+        <maxSalary>$50000.00</maxSalary>
+    </jobs>
+    <jobs id="6">
+        <jobTitle>Retention Specialist</jobTitle>
+        <positionSalary>$41000.00</positionSalary>
+        <minSalary>$31000.00</minSalary>
+        <maxSalary>$51000.00</maxSalary>
+    </jobs>
+    <jobs id="7">
+        <jobTitle>UX Designer</jobTitle>
+        <positionSalary>$115743.00</positionSalary>
+        <minSalary>$95611.00</minSalary>
+        <maxSalary>$135875.00</maxSalary>
+    </jobs>
+    <jobs id="8">
+        <jobTitle>Community Builder</jobTitle>
+        <positionSalary>$49963.00</positionSalary>
+        <minSalary>$34670.00</minSalary>
+        <maxSalary>$65256.00</maxSalary>
+    </jobs>
+    <jobs id="9">
+        <jobTitle>Front End Web Developer</jobTitle>
+        <positionSalary>$73157.00</positionSalary>
+        <minSalary>$53936.00</minSalary>
+        <maxSalary>$92378.00</maxSalary>
+    </jobs>
+    <jobs id="10">
+        <jobTitle>Software Developer</jobTitle>
+        <positionSalary>$73153.00</positionSalary>
+        <minSalary>$53931.00</minSalary>
+        <maxSalary>$92375.00</maxSalary>
+    </jobs>
+    <jobs id="11">
+        <jobTitle>IT Technician</jobTitle>
+        <positionSalary>$71333.00</positionSalary>
+        <minSalary>$55099.00</minSalary>
+        <maxSalary>$87567.00</maxSalary>
+    </jobs>
+    <jobs id="12">
+        <jobTitle>Business Analyst</jobTitle>
+        <positionSalary>$78943.00</positionSalary>
+        <minSalary>$52152.00</minSalary>
+        <maxSalary>$105734.00</maxSalary>
+    </jobs>
+    <jobs id="13">
+        <jobTitle>Graphic Designer</jobTitle>
+        <positionSalary>$47032.00</positionSalary>
+        <minSalary>$24075.00</minSalary>
+        <maxSalary>$69989.00</maxSalary>
+    </jobs>
+    <jobs id="14">
+        <jobTitle>Supply Chain Manager</jobTitle>
+        <positionSalary>$112556.00</positionSalary>
+        <minSalary>$89569.00</minSalary>
+        <maxSalary>$135543.00</maxSalary>
+    </jobs>
+    <jobs id="15">
+        <jobTitle>Digital Operations Manager</jobTitle>
+        <positionSalary>$71153.00</positionSalary>
+        <minSalary>$51461.00</minSalary>
+        <maxSalary>$90845.00</maxSalary>
+    </jobs>
+    <jobs id="16">
+        <jobTitle>Digital Marketing Manager</jobTitle>
+        <positionSalary>$110230.00</positionSalary>
+        <minSalary>$95515.00</minSalary>
+        <maxSalary>$124945.00</maxSalary>
+    </jobs>
+    <jobs id="17">
+        <jobTitle>Customer Satisfaction Manager</jobTitle>
+        <positionSalary>$59890.00</positionSalary>
+        <minSalary>$47330.00</minSalary>
+        <maxSalary>$72450.00</maxSalary>
+    </jobs>
+    <jobs id="18">
+        <jobTitle>Financial Manager</jobTitle>
+        <positionSalary>$134180.00</positionSalary>
+        <minSalary>$111437.00</minSalary>
+        <maxSalary>$156923.00</maxSalary>
+    </jobs>
+    <jobs id="19">
+        <jobTitle>Director of Ecommerce</jobTitle>
+        <positionSalary>$153517.00</positionSalary>
+        <minSalary>$134579.00</minSalary>
+        <maxSalary>$172455.00</maxSalary>
+    </jobs>
+</Jobs>

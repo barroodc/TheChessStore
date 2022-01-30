@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Product>
+    <prod id="1">
+        <inventoryID>1</inventoryID>
+        <productTypeID>1</productTypeID>
+        <categoryID>65</categoryID>
+        <shopID>5797860284</shopID>
+        <productName>Walnut Burl and Maple Superior Contemporary Chess Board</productName>
+    </prod>
+    <prod id="2">
+        <inventoryID>1</inventoryID>
+        <productTypeID>1</productTypeID>
+        <categoryID>87</categoryID>
+        <shopID>5797860284</shopID>
+        <productName>2021 St.Louis Rapid and Blitz Official Chess Pieces</productName>
+    </prod>
+    <prod id="3">
+        <inventoryID>1</inventoryID>
+        <productTypeID>1</productTypeID>
+        <categoryID>34</categoryID>
+        <shopID>5797860284</shopID>
+        <productName>DGT North American Digital Chess Clock</productName>
+    </prod>
+    <prod id="4">
+        <inventoryID>1</inventoryID>
+        <productTypeID>1</productTypeID>
+        <categoryID>42</categoryID>
+        <shopID>5797860284</shopID>
+        <productName>Mastering the Middle Game 1 - EMPIRE CHESS</productName>
+    </prod>
+    <prod id="5">
+        <inventoryID>1</inventoryID>
+        <productTypeID>1</productTypeID>
+        <categoryID>57</categoryID>
+        <shopID>5797860284</shopID>
+        <productName>Chess Base 16 Premium 2022 Edition</productName>
+    </prod>
+    <prod id="6">
+        <inventoryID>1</inventoryID>
+        <productTypeID>1</productTypeID>
+        <categoryID>12</categoryID>
+        <shopID>5797860284</shopID>
+        <productName>Email Gift Card</productName>
+    </prod>
+    <prod id="7">
+        <inventoryID>1</inventoryID>
+        <productTypeID>1</productTypeID>
+        <categoryID>90</categoryID>
+        <shopID>5797860284</shopID>
+        <productName>Competition Chess Bag</productName>
+    </prod>
+    <prod id="8">
+        <inventoryID>1</inventoryID>
+        <productTypeID>1</productTypeID>
+        <categoryID>89</categoryID>
+        <shopID>5797860284</shopID>
+        <productName>US Chess Federation Coffee Cup</productName>
+    </prod>
+    <prod id="9">
+        <inventoryID>1</inventoryID>
+        <productTypeID>1</productTypeID>
+        <categoryID>43</categoryID>
+        <shopID>5797860284</shopID>
+        <productName>Anthology of Chess Problems 2345</productName>
+    </prod>
+    <prod id="10">
+        <inventoryID>1</inventoryID>
+        <productTypeID>1</productTypeID>
+        <categoryID>22</categoryID>
+        <shopID>5797860284</shopID>
+        <productName>Chess Players Score Pad</productName>
+    </prod>
+</Product>

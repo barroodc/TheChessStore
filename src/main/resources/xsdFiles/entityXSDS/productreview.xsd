@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="ProductReview" type="ProductReviewType"/>
+    <xs:complexType name="prodReviewType">
+        <xs:sequence>
+            <xs:element name="productID">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="1"/>
+                        <xs:enumeration value="2"/>
+                        <xs:enumeration value="3"/>
+                        <xs:enumeration value="4"/>
+                        <xs:enumeration value="5"/>
+                        <xs:enumeration value="6"/>
+                        <xs:enumeration value="7"/>
+                        <xs:enumeration value="8"/>
+                        <xs:enumeration value="9"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="overallRating">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="9.5/10"/>
+                        <xs:enumeration value="8.5/10"/>
+                        <xs:enumeration value="7.5/10"/>
+                        <xs:enumeration value="10/10"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="title">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="Definitely would recommend"/>
+                        <xs:enumeration value="Excellent condition"/>
+                        <xs:enumeration value="Good starter clock"/>
+                        <xs:enumeration value="Recommended for any beginner below 1600 ELO"/>
+                        <xs:enumeration value="A great resource for analysis"/>
+                        <xs:enumeration value="Recommended for any chess lover in your life"/>
+                        <xs:enumeration value="Excellent quality"/>
+                        <xs:enumeration value="The mug is awesome!"/>
+                        <xs:enumeration value="Recommended for beginner players"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="parentID">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="1"/>
+                        <xs:enumeration value="2"/>
+                        <xs:enumeration value="3"/>
+                        <xs:enumeration value="4"/>
+                        <xs:enumeration value="5"/>
+                        <xs:enumeration value="6"/>
+                        <xs:enumeration value="7"/>
+                        <xs:enumeration value="8"/>
+                        <xs:enumeration value="9"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="timeCreated">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="2021-08-06T21:03:21.363Z"/>
+                        <xs:enumeration value="2021-02-11T07:15:21.848Z"/>
+                        <xs:enumeration value="2022-01-09T14:28:41.877Z"/>
+                        <xs:enumeration value="2021-12-04T21:33:16.395Z"/>
+                        <xs:enumeration value="2021-08-12T17:05:11.820Z"/>
+                        <xs:enumeration value="2021-04-25T03:22:53.065Z"/>
+                        <xs:enumeration value="2021-05-17T08:37:22.287Z"/>
+                        <xs:enumeration value="2021-09-15T21:53:13.911Z"/>
+                        <xs:enumeration value="2021-12-02T08:13:45.925Z"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="userReview">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="Excellent quality. Well handcrafted. Great holiday present for any chess lover."/>
+                        <xs:enumeration value="It made me so happy that I got to play with pieces from the actual tournament. They are in great condition as well."/>
+                        <xs:enumeration value="I have been wanting a chess clock for sometime now to practice for tournaments. This is exactly what I was looking for."/>
+                        <xs:enumeration value="This course guarantees to sharpen your middle game. Worth every penny."/>
+                        <xs:enumeration value="I have been able to review hundreds of games so far and its drastically improved my ELO."/>
+                        <xs:enumeration value="Great Christmas present. My nephew loves the game."/>
+                        <xs:enumeration value="I've been to countless tournaments and this bag has been the best one I've purchased so far for travel."/>
+                        <xs:enumeration value="I got it as a present for my wife's birthday. She absolutely loves it."/>
+                        <xs:enumeration value="My endgame was seriously lacking and this book helped me learn to mate in less than 5 moves."/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+        </xs:sequence>
+        <xs:attribute type="xs:string" name="id" use="optional"/>
+    </xs:complexType>
+    <xs:complexType name="prodReivewType">
+        <xs:sequence>
+            <xs:element type="xs:string" name="productID"/>
+            <xs:element type="xs:string" name="overallRating"/>
+            <xs:element type="xs:string" name="title"/>
+            <xs:element type="xs:string" name="parentID"/>
+            <xs:element type="xs:string" name="timeCreated"/>
+            <xs:element type="xs:string" name="userReview"/>
+        </xs:sequence>
+        <xs:attribute type="xs:string" name="id"/>
+    </xs:complexType>
+    <xs:complexType name="ProductReviewType">
+        <xs:sequence>
+            <xs:element type="prodReviewType" name="prodReview" maxOccurs="unbounded" minOccurs="0"/>
+            <xs:element type="prodReivewType" name="prodReivew"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>

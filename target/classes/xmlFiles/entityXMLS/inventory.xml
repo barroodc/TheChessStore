@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Inventory>
+    <invt id="1">
+        <productName>Walnut Burl and Maple Superior Contemporary Chess Board</productName>
+        <description>Hand crafted in Italy. Walnut burl dark squares and Maple light squares</description>
+        <price>$695.00</price>
+        <amountInStock>55</amountInStock>
+    </invt>
+    <invt id="2">
+        <proudctName>2021 St.Louis Rapid and Blitz Official Chess Pieces</proudctName>
+        <description>Used by the actual players at the tournament</description>
+        <price>$2495.00</price>
+        <amountInStock>15</amountInStock>
+    </invt>
+    <invt id="3">
+        <proudctName>DGT North American Digital Chess Clock</proudctName>
+        <description>A state of the art digital chess clock. Manufactured by an elite chess clock company, this timer comes with 10 preset time controls.</description>
+        <price>$49.95</price>
+        <amountInStock>127</amountInStock>
+    </invt>
+    <invt id="4">
+        <proudctName>Mastering the Middle Game 1 - EMPIRE CHESS</proudctName>
+        <description>Grandmaster Damian Lemos takes you through an instructive middle game course. This course guarantees to sharpen your middle game. </description>
+        <price>$34.95</price>
+        <amountInStock>425</amountInStock>
+    </invt>
+    <invt id="5">
+        <proudctName>Chess Base 16 Premium 2022 Edition</proudctName>
+        <description>It is the worlds number one chess database. You can retrieve thousands of passed games and analytics with a click of a button.</description>
+        <price>$469.95</price>
+        <amountInStock>72</amountInStock>
+    </invt>
+    <cust id="6">
+        <proudctName>Email Gift Card</proudctName>
+        <description>$25.00 gift card to be used on any item on our site</description>
+        <price>$25.00</price>
+        <amountInStock>1500</amountInStock>
+    </cust>
+    <invt id="7">
+        <proudctName>Competition Chess Bag</proudctName>
+        <description>Made of a durable nylon, this 22.5" x 8.5" bag is perfect for carrying all of your chess needs</description>
+        <price>$11.95</price>
+        <amountInStock>650</amountInStock>
+    </invt>
+    <invt id="8">
+        <proudctName>US Chess Federation Coffee Cup</proudctName>
+        <description>This ceramic chess lovers cup holds 11 ounces of your favorite beverage.</description>
+        <price>$12.95</price>
+        <amountInStock>900</amountInStock>
+    </invt>
+    <invt id="9">
+        <proudctName>Anthology of Chess Problems 2345</proudctName>
+        <description>Chess puzzle book that covers mate in 2,3,4 and 5</description>
+        <price>$55.95</price>
+        <amountInStock>800</amountInStock>
+    </invt>
+    <invt id="10">
+        <proudctName>Chess Players Score Pad</proudctName>
+        <description>Record all of your games with this chess notation notepad</description>
+        <price>$2.95</price>
+        <amountInStock>2000</amountInStock>
+    </invt>
+</Inventory>
+

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="DomTest" type="DomTestType"/>
+    <xs:complexType name="domType">
+        <xs:sequence>
+            <xs:element type="xs:string" name="HusbandName"/>
+            <xs:element type="xs:string" name="WifeName"/>
+            <xs:element type="xs:string" name="MarriageStatus"/>
+        </xs:sequence>
+        <xs:attribute type="xs:string" name="id"/>
+    </xs:complexType>
+    <xs:complexType name="DomTestType">
+        <xs:sequence>
+            <xs:element type="domType" name="dom"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="ItemsInCart" type="ItemsInCartType"/>
+    <xs:complexType name="cartItemsType">
+        <xs:sequence>
+            <xs:element name="productID">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="1"/>
+                        <xs:enumeration value="2"/>
+                        <xs:enumeration value="3"/>
+                        <xs:enumeration value="4"/>
+                        <xs:enumeration value="5"/>
+                        <xs:enumeration value="6"/>
+                        <xs:enumeration value="7"/>
+                        <xs:enumeration value="8"/>
+                        <xs:enumeration value="9"/>
+                        <xs:enumeration value="10"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="productName">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="Walnut Burl and Maple Superior Contemporary Chess Board"/>
+                        <xs:enumeration value="2021 St.Louis Rapid and Blitz Official Chess Pieces"/>
+                        <xs:enumeration value="DGT North American Digital Chess Clock"/>
+                        <xs:enumeration value="Mastering the Middle Game 1 - EMPIRE CHESS"/>
+                        <xs:enumeration value="Chess Base 16 Premium 2022 Edition"/>
+                        <xs:enumeration value="Email Gift Card"/>
+                        <xs:enumeration value="Competition Chess Bag"/>
+                        <xs:enumeration value="US Chess Federation Coffee Cup"/>
+                        <xs:enumeration value="Anthology of Chess Problems 2345"/>
+                        <xs:enumeration value="Chess Players Score Pad"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="sku">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="HN1QMX59FP"/>
+                        <xs:enumeration value="W2OI26QPLG"/>
+                        <xs:enumeration value="E4UN1V3MPG"/>
+                        <xs:enumeration value="OXBF66NP5N"/>
+                        <xs:enumeration value="OIZ459IPGG"/>
+                        <xs:enumeration value="RY34SG3LXY"/>
+                        <xs:enumeration value="AL9AJI7SKP"/>
+                        <xs:enumeration value="U1C5J1OZ9V"/>
+                        <xs:enumeration value="R602I8YTTL"/>
+                        <xs:enumeration value="J0KJ3T7X8W"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="price">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="$695.00"/>
+                        <xs:enumeration value="$2495.00"/>
+                        <xs:enumeration value="$49.95"/>
+                        <xs:enumeration value="$34.95"/>
+                        <xs:enumeration value="$469.95"/>
+                        <xs:enumeration value="$25.00"/>
+                        <xs:enumeration value="$11.95"/>
+                        <xs:enumeration value="$12.95"/>
+                        <xs:enumeration value="$55.95"/>
+                        <xs:enumeration value="$2.95"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="subtotalOfItems">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="$695.00"/>
+                        <xs:enumeration value="$2495.00"/>
+                        <xs:enumeration value="$49.95"/>
+                        <xs:enumeration value="$34.95"/>
+                        <xs:enumeration value="$469.95"/>
+                        <xs:enumeration value="$25.00"/>
+                        <xs:enumeration value="$11.95"/>
+                        <xs:enumeration value="$12.95"/>
+                        <xs:enumeration value="$55.95"/>
+                        <xs:enumeration value="$2.95"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="discount">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="25%"/>
+                        <xs:enumeration value="30%"/>
+                        <xs:enumeration value="15%"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element type="xs:string" name="quantity"/>
+            <xs:element name="timeCreated">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="2021-04-30T21:37:36.670Z"/>
+                        <xs:enumeration value="2021-08-18T02:31:52.285Z"/>
+                        <xs:enumeration value="2021-01-16T11:33:14.297Z"/>
+                        <xs:enumeration value="2021-01-08T06:28:53.186Z"/>
+                        <xs:enumeration value="2021-09-17T13:43:45.722Z"/>
+                        <xs:enumeration value="2021-03-17T20:40:22.455Z"/>
+                        <xs:enumeration value="2021-12-10T09:21:47.045Z"/>
+                        <xs:enumeration value="2021-12-29T19:48:55.978Z"/>
+                        <xs:enumeration value="2021-10-15T11:14:46.894Z"/>
+                        <xs:enumeration value="2021-04-30T13:34:31.906Z"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="cartUpdated">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="2021-04-30T21:45:36.670Z"/>
+                        <xs:enumeration value="2021-08-18T02:45:52.285Z"/>
+                        <xs:enumeration value="2021-01-16T12:33:14.297Z"/>
+                        <xs:enumeration value="2021-01-08T06:57:53.186Z"/>
+                        <xs:enumeration value="2021-09-17T14:01:45.722Z"/>
+                        <xs:enumeration value="2021-03-17T21:59:22.455Z"/>
+                        <xs:enumeration value="2021-12-10T10:26:47.045Z"/>
+                        <xs:enumeration value="2021-12-29T19:52:55.978Z"/>
+                        <xs:enumeration value="2021-10-15T11:17:21.894Z"/>
+                        <xs:enumeration value="2021-04-30T13:40:45.906Z"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+        </xs:sequence>
+        <xs:attribute type="xs:string" name="id" use="optional"/>
+    </xs:complexType>
+    <xs:complexType name="ItemsInCartType">
+        <xs:sequence>
+            <xs:element type="cartItemsType" name="cartItems" maxOccurs="unbounded" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>

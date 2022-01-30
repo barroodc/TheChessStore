@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<State>
+    <state id="1">
+        <countryID>1</countryID>
+        <stateName>New Jersey(State)</stateName>
+        <lastUpdate>2021-04-12T10:38:25.250Z</lastUpdate>
+    </state>
+    <state id="2">
+        <countryID>2</countryID>
+        <stateName>Altai(Republic)</stateName>
+        <lastUpdate>2021-03-07T10:56:04.110Z</lastUpdate>
+    </state>
+    <state id="3">
+        <countryID>3</countryID>
+        <stateName>Matera(Province)</stateName>
+        <lastUpdate>2021-02-25T23:03:53.686Z</lastUpdate>
+    </state>
+    <state id="4">
+        <countryID>4</countryID>
+        <stateName>Mugla(Province)</stateName>
+        <lastUpdate>2021-12-17T19:53:29.557Z</lastUpdate>
+    </state>
+    <state id="5">
+        <countryID>5</countryID>
+        <stateName>Akkar(Governorates)</stateName>
+        <lastUpdate>2021-07-23T15:13:35.025Z</lastUpdate>
+    </state>
+    <state id="6">
+        <countryID>6</countryID>
+        <stateName>Reykjavik(Region)</stateName>
+        <lastUpdate>2021-08-21T08:32:04.975Z</lastUpdate>
+    </state>
+    <state id="7">
+        <countryID>7</countryID>
+        <stateName>Caazapa(Department)</stateName>
+        <lastUpdate>2021-11-25T12:14:53.115Z</lastUpdate>
+    </state>
+    <state id="8">
+        <countryID>8</countryID>
+        <stateName>Zürich(Cantons)</stateName>
+        <lastUpdate>2021-04-12T00:16:59.808Z</lastUpdate>
+    </state>
+    <state id="9">
+        <countryID>9</countryID>
+        <stateName>Central District</stateName>
+        <lastUpdate>2021-03-28T01:56:20.889Z</lastUpdate>
+    </state>
+    <state id="10">
+        <countryID>10</countryID>
+        <stateName>Balochistan(Province)</stateName>
+        <lastUpdate>2021-04-16T09:19:17.029Z</lastUpdate>
+    </state>
+</State>

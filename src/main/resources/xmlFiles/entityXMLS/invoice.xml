@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Invoice>
+    <invoice id="1">
+        <transactionID>1</transactionID>
+        <inventoryID>1</inventoryID>
+        <isInStock>true</isInStock>
+        <price>$695.00</price>
+        <discount>25%</discount>
+        <preTax>n/a</preTax>
+        <tax>7.25%</tax>
+        <subtotal>$559.04</subtotal>
+    </invoice>
+    <invoice id="2">
+        <transactionID>2</transactionID>
+        <inventoryID>2</inventoryID>
+        <isInStock>true</isInStock>
+        <price>$2495.00</price>
+        <discount>30%</discount>
+        <preTax>n/a</preTax>
+        <tax>7.25%</tax>
+        <subtotal>$1873.12</subtotal>
+    </invoice>
+    <invoice id="3">
+        <transactionID>3</transactionID>
+        <inventoryID>3</inventoryID>
+        <isInStock>true</isInStock>
+        <price>$49.95</price>
+        <discount>15%</discount>
+        <preTax>n/a</preTax>
+        <tax>7.25%</tax>
+        <subtotal>$45.54</subtotal>
+    </invoice>
+    <invoice id="4">
+        <transactionID>4</transactionID>
+        <inventoryID>4</inventoryID>
+        <isInStock>true</isInStock>
+        <price>$34.95</price>
+        <discount>15%</discount>
+        <preTax>n/a</preTax>
+        <tax>7.25%</tax>
+        <subtotal>$31.86</subtotal>
+    </invoice>
+    <invoice id="5">
+        <transactionID>5</transactionID>
+        <inventoryID>5</inventoryID>
+        <isInStock>true</isInStock>
+        <price>$469.95</price>
+        <discount>25%</discount>
+        <preTax>n/a</preTax>
+        <tax>7.25%</tax>
+        <subtotal>$378.02</subtotal>
+    </invoice>
+    <invoice id="6">
+        <transactionID>6</transactionID>
+        <inventoryID>6</inventoryID>
+        <isInStock>true</isInStock>
+        <price>$25.00</price>
+        <discount>15%</discount>
+        <preTax>n/a</preTax>
+        <tax>7.25%</tax>
+        <subtotal>$22.79</subtotal>
+    </invoice>
+    <invoice id="7">
+        <transactionID>7</transactionID>
+        <inventoryID>7</inventoryID>
+        <isInStock>true</isInStock>
+        <price>$11.95</price>
+        <discount>15%</discount>
+        <preTax>n/a</preTax>
+        <tax>7.25%</tax>
+        <subtotal>$10.89</subtotal>
+    </invoice>
+    <invoice id="8">
+        <transactionID>8</transactionID>
+        <inventoryID>8</inventoryID>
+        <isInStock>true</isInStock>
+        <price>$12.95</price>
+        <discount>15%</discount>
+        <preTax>n/a</preTax>
+        <tax>7.25%</tax>
+        <subtotal>11.81</subtotal>
+    </invoice>
+    <invoice id="9">
+        <transactionID>9</transactionID>
+        <inventoryID>9</inventoryID>
+        <isInStock>true</isInStock>
+        <price>$55.95</price>
+        <discount>15%</discount>
+        <preTax>n/a</preTax>
+        <tax>7.25%</tax>
+        <subtotal>$51.01</subtotal>
+    </invoice>
+    <invoice id="10">
+        <transactionID>10</transactionID>
+        <inventoryID>10</inventoryID>
+        <isInStock>true</isInStock>
+        <price>$2.95</price>
+        <discount>15%</discount>
+        <preTax>n/a</preTax>
+        <tax>7.25%</tax>
+        <subtotal>$2.69</subtotal>
+    </invoice>
+</Invoice>

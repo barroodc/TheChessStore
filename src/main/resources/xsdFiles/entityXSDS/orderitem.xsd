@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="OrderItem" type="OrderItemType"/>
+    <xs:complexType name="orderItemType">
+        <xs:sequence>
+            <xs:element name="orderID">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="1"/>
+                        <xs:enumeration value="2"/>
+                        <xs:enumeration value="3"/>
+                        <xs:enumeration value="4"/>
+                        <xs:enumeration value="5"/>
+                        <xs:enumeration value="6"/>
+                        <xs:enumeration value="7"/>
+                        <xs:enumeration value="8"/>
+                        <xs:enumeration value="9"/>
+                        <xs:enumeration value="10"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="productID">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="1"/>
+                        <xs:enumeration value="2"/>
+                        <xs:enumeration value="3"/>
+                        <xs:enumeration value="4"/>
+                        <xs:enumeration value="5"/>
+                        <xs:enumeration value="6"/>
+                        <xs:enumeration value="7"/>
+                        <xs:enumeration value="8"/>
+                        <xs:enumeration value="9"/>
+                        <xs:enumeration value="10"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="sku">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="HN1QMX59FP"/>
+                        <xs:enumeration value="W2OI26QPLG"/>
+                        <xs:enumeration value="E4UN1V3MPG"/>
+                        <xs:enumeration value="OXBF66NP5N"/>
+                        <xs:enumeration value="OIZ459IPGG"/>
+                        <xs:enumeration value="RY34SG3LXY"/>
+                        <xs:enumeration value="AL9AJI7SKP"/>
+                        <xs:enumeration value="U1C5J1OZ9V"/>
+                        <xs:enumeration value="R602I8YTTL"/>
+                        <xs:enumeration value="J0KJ3T7X8W"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="price">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="$695.00"/>
+                        <xs:enumeration value="$2495.00"/>
+                        <xs:enumeration value="$49.95"/>
+                        <xs:enumeration value="$34.95"/>
+                        <xs:enumeration value="$469.95"/>
+                        <xs:enumeration value="$25.00"/>
+                        <xs:enumeration value="$11.95"/>
+                        <xs:enumeration value="$12.95"/>
+                        <xs:enumeration value="$55.95"/>
+                        <xs:enumeration value="$2.95"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="discount">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="25%"/>
+                        <xs:enumeration value="30%"/>
+                        <xs:enumeration value="15%"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element type="xs:string" name="quantity"/>
+            <xs:element name="timeCreated">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="2021-05-23T07:34:11.936Z"/>
+                        <xs:enumeration value="2021-02-11T16:49:34.977Z"/>
+                        <xs:enumeration value="2021-03-24T09:40:16.041Z"/>
+                        <xs:enumeration value="2021-03-10T07:33:29.405Z"/>
+                        <xs:enumeration value="2021-04-17T19:15:50.191Z"/>
+                        <xs:enumeration value="2021-12-23T22:57:58.876Z"/>
+                        <xs:enumeration value="2021-03-02T06:13:27.680Z"/>
+                        <xs:enumeration value="2021-12-31T04:00:29.004Z"/>
+                        <xs:enumeration value="2021-10-31T17:10:21.624Z"/>
+                        <xs:enumeration value="2021-01-25T03:31:21.700Z"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+        </xs:sequence>
+        <xs:attribute type="xs:string" name="id" use="optional"/>
+    </xs:complexType>
+    <xs:complexType name="OrderItemType">
+        <xs:sequence>
+            <xs:element type="orderItemType" name="orderItem" maxOccurs="unbounded" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>

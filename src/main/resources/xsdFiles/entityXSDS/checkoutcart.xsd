@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="CheckoutCart" type="CheckoutCartType"/>
+    <xs:complexType name="checkOutType">
+        <xs:sequence>
+            <xs:element name="userID">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="1"/>
+                        <xs:enumeration value="2"/>
+                        <xs:enumeration value="3"/>
+                        <xs:enumeration value="4"/>
+                        <xs:enumeration value="5"/>
+                        <xs:enumeration value="6"/>
+                        <xs:enumeration value="7"/>
+                        <xs:enumeration value="8"/>
+                        <xs:enumeration value="9"/>
+                        <xs:enumeration value="10"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="numberOfItems">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="25"/>
+                        <xs:enumeration value="15"/>
+                        <xs:enumeration value="72"/>
+                        <xs:enumeration value="4"/>
+                        <xs:enumeration value="1"/>
+                        <xs:enumeration value="6"/>
+                        <xs:enumeration value="8"/>
+                        <xs:enumeration value="10"/>
+                        <xs:enumeration value="17"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="mobile">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="3268408450"/>
+                        <xs:enumeration value="2522041585"/>
+                        <xs:enumeration value="7239549421"/>
+                        <xs:enumeration value="2769596780"/>
+                        <xs:enumeration value="8704130363"/>
+                        <xs:enumeration value="5357120679"/>
+                        <xs:enumeration value="5772590538"/>
+                        <xs:enumeration value="5188354388"/>
+                        <xs:enumeration value="2487656027"/>
+                        <xs:enumeration value="8039059296"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="email">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="annette74@yahoo.com"/>
+                        <xs:enumeration value="ron47@gmail.com"/>
+                        <xs:enumeration value="paolo_williamson6@hotmail.com"/>
+                        <xs:enumeration value="harvey.von@yahoo.com"/>
+                        <xs:enumeration value="lexie13@hotmail.com"/>
+                        <xs:enumeration value="tiffany17@hotmail.com"/>
+                        <xs:enumeration value="clark_ratke95@hotmail.com"/>
+                        <xs:enumeration value="minnie_dickens5@yahoo.com"/>
+                        <xs:enumeration value="mallie69@gmail.com"/>
+                        <xs:enumeration value="alexandra_christiansen@yahoo.com"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="cartUpdated">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="2021-04-27T11:29:32.041Z"/>
+                        <xs:enumeration value="2021-11-07T22:16:44.878Z"/>
+                        <xs:enumeration value="2021-03-04T11:24:57.934Z"/>
+                        <xs:enumeration value="2021-05-17T22:59:35.373Z"/>
+                        <xs:enumeration value="2021-07-03T23:40:09.668Z"/>
+                        <xs:enumeration value="2021-10-06T23:04:11.939Z"/>
+                        <xs:enumeration value="2021-10-19T23:40:11.953Z"/>
+                        <xs:enumeration value="2021-08-29T21:47:24.599Z"/>
+                        <xs:enumeration value="2021-01-09T17:23:43.264Z"/>
+                        <xs:enumeration value="2021-04-25T23:06:31.654Z"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="timeCreated">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="2021-04-27T10:32:14.336Z"/>
+                        <xs:enumeration value="2021-11-07T05:53:04.984Z"/>
+                        <xs:enumeration value="2021-03-04T10:54:22.415Z"/>
+                        <xs:enumeration value="2021-05-17T19:41:05.718Z"/>
+                        <xs:enumeration value="2021-07-03T18:52:36.299Z"/>
+                        <xs:enumeration value="2021-10-06T04:46:35.712Z"/>
+                        <xs:enumeration value="2021-10-19T22:07:29.051Z"/>
+                        <xs:enumeration value="2021-08-29T15:13:26.781Z"/>
+                        <xs:enumeration value="2022-01-09T00:43:35.327Z"/>
+                        <xs:enumeration value="2021-04-25T22:41:32.644Z"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="isGift">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="true"/>
+                        <xs:enumeration value="false"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+        </xs:sequence>
+        <xs:attribute type="xs:string" name="id" use="optional"/>
+    </xs:complexType>
+    <xs:complexType name="CheckoutCartType">
+        <xs:sequence>
+            <xs:element type="checkOutType" name="checkOut" maxOccurs="unbounded" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="Order" type="OrderType"/>
+    <xs:complexType name="orderType">
+        <xs:sequence>
+            <xs:element name="userID">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="1"/>
+                        <xs:enumeration value="2"/>
+                        <xs:enumeration value="3"/>
+                        <xs:enumeration value="4"/>
+                        <xs:enumeration value="5"/>
+                        <xs:enumeration value="6"/>
+                        <xs:enumeration value="7"/>
+                        <xs:enumeration value="8"/>
+                        <xs:enumeration value="9"/>
+                        <xs:enumeration value="10"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="dateOfOrder">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="2021-06-23"/>
+                        <xs:enumeration value="2022-01-05"/>
+                        <xs:enumeration value="2021-03-25"/>
+                        <xs:enumeration value="2021-07-01"/>
+                        <xs:enumeration value="2021-02-10"/>
+                        <xs:enumeration value="2021-12-09"/>
+                        <xs:enumeration value="2021-10-05"/>
+                        <xs:enumeration value="2021-03-20"/>
+                        <xs:enumeration value="2021-08-02"/>
+                        <xs:enumeration value="2021-12-12"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="dateOfDelivery">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="2021-06-28"/>
+                        <xs:enumeration value="2022-01-10"/>
+                        <xs:enumeration value="2021-03-30"/>
+                        <xs:enumeration value="2021-07-06"/>
+                        <xs:enumeration value="2021-02-17"/>
+                        <xs:enumeration value="2021-12-19"/>
+                        <xs:enumeration value="2021-10-20"/>
+                        <xs:enumeration value="2021-08-16"/>
+                        <xs:enumeration value="2021-12-15"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="timeOfDelivery">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="2021-06-28T04:14:45.047Z"/>
+                        <xs:enumeration value="2022-01-10T05:35:33.667Z"/>
+                        <xs:enumeration value="2021-03-30T12:35:30.711Z"/>
+                        <xs:enumeration value="2021-07-06T05:12:15.132Z"/>
+                        <xs:enumeration value="2021-02-17T19:15:13.567Z"/>
+                        <xs:enumeration value="2021-12-19T09:45:44.350Z"/>
+                        <xs:enumeration value="2021-10-20T08:27:04.761Z"/>
+                        <xs:enumeration value="2021-03-30T10:35:27.995Z"/>
+                        <xs:enumeration value="2021-08-16T22:21:04.333Z"/>
+                        <xs:enumeration value="2021-12-15T19:05:03.648Z"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="mobile">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="3254645348"/>
+                        <xs:enumeration value="5055087077"/>
+                        <xs:enumeration value="5056448540"/>
+                        <xs:enumeration value="5054550862"/>
+                        <xs:enumeration value="2152083496"/>
+                        <xs:enumeration value="2064792353"/>
+                        <xs:enumeration value="2077164539"/>
+                        <xs:enumeration value="5823001115"/>
+                        <xs:enumeration value="4588442134"/>
+                        <xs:enumeration value="2059877810"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="email">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="lucienne_boehm@gmail.com"/>
+                        <xs:enumeration value="joannie_murray70@gmail.com"/>
+                        <xs:enumeration value="frank.dach25@hotmail.com"/>
+                        <xs:enumeration value="camylle.upton@yahoo.com"/>
+                        <xs:enumeration value="linda.ferry@hotmail.com"/>
+                        <xs:enumeration value="abe28@gmail.com"/>
+                        <xs:enumeration value="evert94@gmail.com"/>
+                        <xs:enumeration value="marcelle.parisian82@hotmail.com"/>
+                        <xs:enumeration value="milo58@gmail.com"/>
+                        <xs:enumeration value="terence45@gmail.com"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="timeCreated">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="2021-06-24T04:13:32.047Z"/>
+                        <xs:enumeration value="2022-01-05T04:29:33.667Z"/>
+                        <xs:enumeration value="2021-03-22T22:40:30.711Z"/>
+                        <xs:enumeration value="2021-06-06T05:07:53.132Z"/>
+                        <xs:enumeration value="2021-02-16T18:34:13.567Z"/>
+                        <xs:enumeration value="2021-12-01T10:21:44.350Z"/>
+                        <xs:enumeration value="2021-10-06T01:54:04.761Z"/>
+                        <xs:enumeration value="2021-03-31T09:35:27.995Z"/>
+                        <xs:enumeration value="2021-08-12T21:35:32.333Z"/>
+                        <xs:enumeration value="2021-11-22T15:35:03.648Z"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element type="xs:string" name="status"/>
+        </xs:sequence>
+        <xs:attribute type="xs:string" name="id" use="optional"/>
+    </xs:complexType>
+    <xs:complexType name="OrderType">
+        <xs:sequence>
+            <xs:element type="orderType" name="order" maxOccurs="unbounded" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>

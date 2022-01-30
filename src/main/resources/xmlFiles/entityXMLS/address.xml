@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Address>
+    <addr id="1">
+        <cityID>1</cityID>
+        <streetAddress>14 Howel Lane</streetAddress>
+        <buildingNumber>n/a</buildingNumber>
+        <lastUpdate>2021-11-04T16:57:53.962Z</lastUpdate>
+    </addr>
+    <addr id="2">
+        <cityID>2</cityID>
+        <streetAddress>394 Jefferson Street</streetAddress>
+        <buildingNumber>n/a</buildingNumber>
+        <lastUpdate>2021-01-02T03:48:22.638Z</lastUpdate>
+    </addr>
+    <addr id="3">
+        <cityID>3</cityID>
+        <streetAddress>2670 Charmaine Lane</streetAddress>
+        <buildingNumber>5A</buildingNumber>
+        <lastUpdate>2021-11-20T06:29:33.159Z</lastUpdate>
+    </addr>
+    <addr id="4">
+        <cityID>4</cityID>
+        <streetAddress>1487 Charles Street</streetAddress>
+        <buildingNumber>n/a</buildingNumber>
+        <lastUpdate>2021-06-29T12:18:25.486Z</lastUpdate>
+    </addr>
+    <addr id="5">
+        <cityID>5</cityID>
+        <streetAddress>4869 River Road</streetAddress>
+        <buildingNumber>n/a</buildingNumber>
+        <lastUpdate>2021-03-18T22:32:24.460Z</lastUpdate>
+    </addr>
+    <addr id="6">
+        <cityID>6</cityID>
+        <streetAddress>2196 Irish Lane</streetAddress>
+        <buildingNumber>n/a</buildingNumber>
+        <lastUpdate>2021-02-07T14:51:34.915Z</lastUpdate>
+    </addr>
+    <addr id="7">
+        <cityID>7</cityID>
+        <streetAddress>4188 Wiseman Street</streetAddress>
+        <buildingNumber>n/a</buildingNumber>
+        <lastUpdate>2021-10-29T19:42:29.436Z</lastUpdate>
+    </addr>
+    <addr id="8">
+        <cityID>8</cityID>
+        <streetAddress>4188 Seth Street</streetAddress>
+        <buildingNumber>16B</buildingNumber>
+        <lastUpdate>2021-10-29T19:42:29.436Z</lastUpdate>
+    </addr>
+    <addr id="9">
+        <cityID>9</cityID>
+        <streetAddress>3363 Lynch Street</streetAddress>
+        <buildingNumber>n/a</buildingNumber>
+        <lastUpdate>2021-10-25T05:42:23.805Z</lastUpdate>
+    </addr>
+    <addr id="10">
+        <cityID>10</cityID>
+        <streetAddress>2976 Burnside Court</streetAddress>
+        <buildingNumber>17C</buildingNumber>
+        <lastUpdate>2021-11-07T05:53:04.984Z</lastUpdate>
+    </addr>
+</Address>

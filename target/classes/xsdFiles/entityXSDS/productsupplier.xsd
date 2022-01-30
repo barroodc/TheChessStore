@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="ProductSupplier" type="ProductSupplierType"/>
+    <xs:complexType name="prodSupplierType">
+        <xs:sequence>
+            <xs:element name="productID">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="1"/>
+                        <xs:enumeration value="2"/>
+                        <xs:enumeration value="3"/>
+                        <xs:enumeration value="4"/>
+                        <xs:enumeration value="5"/>
+                        <xs:enumeration value="6"/>
+                        <xs:enumeration value="7"/>
+                        <xs:enumeration value="8"/>
+                        <xs:enumeration value="9"/>
+                        <xs:enumeration value="10"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element type="xs:string" name="supplierName"/>
+            <xs:element name="categoryOfProducts">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="Chess Boards"/>
+                        <xs:enumeration value="Chess Pieces"/>
+                        <xs:enumeration value="Chess Clocks"/>
+                        <xs:enumeration value="Software"/>
+                        <xs:enumeration value="Gift Cards"/>
+                        <xs:enumeration value="Chess Bags"/>
+                        <xs:enumeration value="Coffee Cups"/>
+                        <xs:enumeration value="Chess Books"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+        </xs:sequence>
+        <xs:attribute type="xs:string" name="id" use="optional"/>
+    </xs:complexType>
+    <xs:complexType name="ProductSupplierType">
+        <xs:sequence>
+            <xs:element type="prodSupplierType" name="prodSupplier" maxOccurs="unbounded" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>

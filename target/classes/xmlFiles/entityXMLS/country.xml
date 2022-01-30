@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Country>
+    <country id="1">
+        <countryName>United States</countryName>
+        <currencyName>Dollar</currencyName>
+        <phoneCode>+1</phoneCode>
+        <lastUpdate>2021-01-17T21:28:45.451Z</lastUpdate>
+    </country>
+    <country id="2">
+        <countryName>Russia</countryName>
+        <currencyName>Ruble</currencyName>
+        <phoneCode>+7</phoneCode>
+        <lastUpdate>2021-05-05T14:51:12.345Z</lastUpdate>
+    </country>
+    <country id="3">
+        <countryName>Italy</countryName>
+        <currencyName>Euro</currencyName>
+        <phoneCode>+39</phoneCode>
+        <lastUpdate>2021-07-08T23:13:33.072Z</lastUpdate>
+    </country>
+    <country id="4">
+        <countryName>Turkey</countryName>
+        <currencyName>Lira</currencyName>
+        <phoneCode>+90</phoneCode>
+        <lastUpdate>2021-01-18T09:14:57.902Z</lastUpdate>
+    </country>
+    <country id="5">
+        <countryName>Lebanon</countryName>
+        <currencyName>Pound</currencyName>
+        <phoneCode>+961</phoneCode>
+        <lastUpdate>2021-12-01T00:47:12.307Z</lastUpdate>
+    </country>
+    <country id="6">
+        <countryName>Iceland</countryName>
+        <currencyName>Krona</currencyName>
+        <phoneCode>+354</phoneCode>
+        <lastUpdate>2021-06-13T05:10:08.185Z</lastUpdate>
+    </country>
+    <country id="7">
+        <countryName>Paraguay</countryName>
+        <currencyName>Guarani</currencyName>
+        <phoneCode>+595</phoneCode>
+        <lastUpdate>2021-11-17T02:06:33.530Z</lastUpdate>
+    </country>
+    <country id="8">
+        <countryName>Switzerland</countryName>
+        <currencyName>Franc</currencyName>
+        <phoneCode>+41</phoneCode>
+        <lastUpdate>2021-09-15T23:22:17.852Z</lastUpdate>
+    </country>
+    <country id="9">
+        <countryName>Israel</countryName>
+        <currencyName>New Shekel</currencyName>
+        <phoneCode>+972</phoneCode>
+        <lastUpdate>2021-11-10T10:44:37.699Z</lastUpdate>
+    </country>
+    <country id="10">
+        <countryName>Pakistan</countryName>
+        <currencyName>Rupee</currencyName>
+        <phoneCode>+92</phoneCode>
+        <lastUpdate>2021-10-13T07:08:45.177Z</lastUpdate>
+    </country>
+</Country>

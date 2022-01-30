@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<ProductReview>
+    <prodReview id="1">
+        <productID>1</productID>
+        <overallRating>9.5/10</overallRating>
+        <title>Definitely would recommend</title>
+        <parentID>1</parentID>
+        <timeCreated>2021-08-06T21:03:21.363Z</timeCreated>
+        <userReview>Excellent quality. Well handcrafted. Great holiday present for any chess lover.</userReview>
+    </prodReview>
+    <prodReview id="2">
+        <productID>2</productID>
+        <overallRating>8.5/10</overallRating>
+        <title>Excellent condition</title>
+        <parentID>2</parentID>
+        <timeCreated>2021-02-11T07:15:21.848Z</timeCreated>
+        <userReview>It made me so happy that I got to play with pieces from the actual tournament. They are in great condition as well.</userReview>
+    </prodReview>
+    <prodReview id="3">
+        <productID>3</productID>
+        <overallRating>7.5/10</overallRating>
+        <title>Good starter clock</title>
+        <parentID>3</parentID>
+        <timeCreated>2022-01-09T14:28:41.877Z</timeCreated>
+        <userReview>I have been wanting a chess clock for sometime now to practice for tournaments. This is exactly what I was looking for.</userReview>
+    </prodReview>
+    <prodReview id="4">
+        <productID>4</productID>
+        <overallRating>10/10</overallRating>
+        <title>Recommended for any beginner below 1600 ELO</title>
+        <parentID>4</parentID>
+        <timeCreated>2021-12-04T21:33:16.395Z</timeCreated>
+        <userReview>This course guarantees to sharpen your middle game. Worth every penny.</userReview>
+    </prodReview>
+    <prodReview id="5">
+        <productID>5</productID>
+        <overallRating>8.5/10</overallRating>
+        <title>A great resource for analysis</title>
+        <parentID>5</parentID>
+        <timeCreated>2021-08-12T17:05:11.820Z</timeCreated>
+        <userReview>I have been able to review hundreds of games so far and its drastically improved my ELO.</userReview>
+    </prodReview>
+    <prodReview id="6">
+        <productID>6</productID>
+        <overallRating>7.5/10</overallRating>
+        <title>Recommended for any chess lover in your life</title>
+        <parentID>6</parentID>
+        <timeCreated>2021-04-25T03:22:53.065Z</timeCreated>
+        <userReview>Great Christmas present. My nephew loves the game.</userReview>
+    </prodReview>
+    <prodReview id="7">
+        <productID>7</productID>
+        <overallRating>9.5/10</overallRating>
+        <title>Excellent quality</title>
+        <parentID>7</parentID>
+        <timeCreated>2021-05-17T08:37:22.287Z</timeCreated>
+        <userReview>I've been to countless tournaments and this bag has been the best one I've purchased so far for travel.</userReview>
+    </prodReview>
+    <prodReview id="8">
+        <productID>8</productID>
+        <overallRating>9.5/10</overallRating>
+        <title>The mug is awesome!</title>
+        <parentID>8</parentID>
+        <timeCreated>2021-09-15T21:53:13.911Z</timeCreated>
+        <userReview>I got it as a present for my wife's birthday. She absolutely loves it.</userReview>
+    </prodReview>
+    <prodReview id="9">
+        <productID>9</productID>
+        <overallRating>8.5/10</overallRating>
+        <title>Recommended for beginner players</title>
+        <parentID>9</parentID>
+        <timeCreated>2021-12-02T08:13:45.925Z</timeCreated>
+        <userReview>My endgame was seriously lacking and this book helped me learn to mate in less than 5 moves.</userReview>
+    </prodReview>
+    <prodReivew id="10">
+        <productID>10</productID>
+        <overallRating>10/10</overallRating>
+        <title>Excellent for notation practice</title>
+        <parentID>10</parentID>
+        <timeCreated>2021-06-10T06:25:40Z</timeCreated>
+        <userReview>An annoying yet essential part of any serious chess game is notation. This pad has everything you need.</userReview>
+    </prodReivew>
+</ProductReview>

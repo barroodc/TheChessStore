@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<DomTest>
+    <dom id = "1">
+        <HusbandName>Charles</HusbandName>
+        <WifeName>Mary</WifeName>
+        <MarriageStatus>Married</MarriageStatus>
+    </dom>
+
+</DomTest>

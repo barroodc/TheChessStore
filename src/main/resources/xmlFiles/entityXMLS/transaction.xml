@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Transaction>
+    <trans id="1">
+        <userID>1</userID>
+        <status>Awaiting Shipment</status>
+        <timeCreated>2021-04-18T12:23:32.982Z</timeCreated>
+        <approvalStatus>Approved</approvalStatus>
+    </trans>
+    <trans id="2">
+        <userID>2</userID>
+        <status>Awaiting Shipment</status>
+        <timeCreated>2021-01-24T05:03:27.481Z</timeCreated>
+        <approvalStatus>Approved</approvalStatus>
+    </trans>
+    <trans id="3">
+        <userID>3</userID>
+        <status>Awaiting Shipment</status>
+        <timeCreated>2021-03-02T05:12:45.442Z</timeCreated>
+        <approvalStatus>Approved</approvalStatus>
+    </trans>
+    <trans id="4">
+        <userID>4</userID>
+        <status>Awaiting Shipment</status>
+        <timeCreated>2021-10-30T00:55:59.369Z</timeCreated>
+        <approvalStatus>Approved</approvalStatus>
+    </trans>
+    <trans id="5">
+        <userID>5</userID>
+        <status>Awaiting Shipment</status>
+        <timeCreated>2021-04-08T01:34:13.044Z</timeCreated>
+        <approvalStatus>Approved</approvalStatus>
+    </trans>
+    <trans id="6">
+        <userID>6</userID>
+        <status>Awaiting Shipment</status>
+        <timeCreated>2021-11-06T18:05:56.368Z</timeCreated>
+        <approvalStatus>Approved</approvalStatus>
+    </trans>
+    <trans id="7">
+        <userID>7</userID>
+        <status>Awaiting Shipment</status>
+        <timeCreated>2021-05-15T16:37:23.449Z</timeCreated>
+        <approvalStatus>Approved</approvalStatus>
+    </trans>
+    <trans id="8">
+        <userID>8</userID>
+        <status>Awaiting Shipment</status>
+        <timeCreated>2021-08-15T15:09:58.664Z</timeCreated>
+        <approvalStatus>Approved</approvalStatus>
+    </trans>
+    <trans id="9">
+        <userID>9</userID>
+        <status>Awaiting Shipment</status>
+        <timeCreated>2022-01-01T19:19:32.596Z</timeCreated>
+        <approvalStatus>Approved</approvalStatus>
+    </trans>
+    <trans id="10">
+        <userID>10</userID>
+        <status>Awaiting Shipment</status>
+        <timeCreated>2021-04-07T19:58:10.785Z</timeCreated>
+        <approvalStatus>Approved</approvalStatus>
+    </trans>
+</Transaction>

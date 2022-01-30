@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="Employees" type="EmployeesType"/>
+    <xs:complexType name="empType">
+        <xs:sequence>
+            <xs:element type="xs:string" name="jobsID">
+                <xs:annotation>
+                    <xs:documentation>Customer Service Representative Marketing Specialist SEO Content Writer Warehouse WorkerAdministrative AssistantRetention SpecialistUX DesignerCommunity BuilderFront End Web DeveloperSoftware DeveloperIT Technician Business AnalystGraphic DesignerSupply Chain ManagerDigital Operations ManagerDigital Marketing ManagerCustomer Satisfaction ManagerFinancial ManagerDirector of Ecommerce</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element type="xs:string" name="departmentsID"/>
+            <xs:element type="xs:string" name="mobile"/>
+            <xs:element type="xs:string" name="email"/>
+            <xs:element type="xs:string" name="hireDate"/>
+            <xs:element type="xs:string" name="jobID"/>
+            <xs:element type="xs:string" name="salary"/>
+            <xs:element name="managerID">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="677873266X"/>
+                        <xs:enumeration value="986706674W"/>
+                        <xs:enumeration value="304428323V"/>
+                        <xs:enumeration value="546828543U"/>
+                        <xs:enumeration value="4504399212P"/>
+                        <xs:enumeration value="145117851Y"/>
+                        <xs:enumeration value="171609958Z"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element type="xs:string" name="departmentID"/>
+        </xs:sequence>
+        <xs:attribute type="xs:string" name="id" use="optional"/>
+    </xs:complexType>
+    <xs:complexType name="EmployeesType">
+        <xs:sequence>
+            <xs:element type="empType" name="emp" maxOccurs="unbounded" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>

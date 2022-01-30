@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="State" type="StateType"/>
+    <xs:complexType name="stateType">
+        <xs:sequence>
+            <xs:element name="countryID">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="1"/>
+                        <xs:enumeration value="2"/>
+                        <xs:enumeration value="3"/>
+                        <xs:enumeration value="4"/>
+                        <xs:enumeration value="5"/>
+                        <xs:enumeration value="6"/>
+                        <xs:enumeration value="7"/>
+                        <xs:enumeration value="8"/>
+                        <xs:enumeration value="9"/>
+                        <xs:enumeration value="10"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="stateName">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="New Jersey(State)"/>
+                        <xs:enumeration value="Altai(Republic)"/>
+                        <xs:enumeration value="Matera(Province)"/>
+                        <xs:enumeration value="Mugla(Province)"/>
+                        <xs:enumeration value="Akkar(Governorates)"/>
+                        <xs:enumeration value="Reykjavik(Region)"/>
+                        <xs:enumeration value="Caazapa(Department)"/>
+                        <xs:enumeration value="Zürich(Cantons)"/>
+                        <xs:enumeration value="Central District"/>
+                        <xs:enumeration value="Balochistan(Province)"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="lastUpdate">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="2021-04-12T10:38:25.250Z"/>
+                        <xs:enumeration value="2021-03-07T10:56:04.110Z"/>
+                        <xs:enumeration value="2021-02-25T23:03:53.686Z"/>
+                        <xs:enumeration value="2021-12-17T19:53:29.557Z"/>
+                        <xs:enumeration value="2021-07-23T15:13:35.025Z"/>
+                        <xs:enumeration value="2021-08-21T08:32:04.975Z"/>
+                        <xs:enumeration value="2021-11-25T12:14:53.115Z"/>
+                        <xs:enumeration value="2021-04-12T00:16:59.808Z"/>
+                        <xs:enumeration value="2021-03-28T01:56:20.889Z"/>
+                        <xs:enumeration value="2021-04-16T09:19:17.029Z"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+        </xs:sequence>
+        <xs:attribute type="xs:string" name="id" use="optional"/>
+    </xs:complexType>
+    <xs:complexType name="StateType">
+        <xs:sequence>
+            <xs:element type="stateType" name="state" maxOccurs="unbounded" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>

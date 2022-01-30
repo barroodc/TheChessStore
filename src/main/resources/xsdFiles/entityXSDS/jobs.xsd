@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="Jobs" type="JobsType"/>
+    <xs:complexType name="jobsType">
+        <xs:sequence>
+            <xs:element type="xs:string" name="jobTitle"/>
+            <xs:element type="xs:string" name="positionSalary"/>
+            <xs:element type="xs:string" name="minSalary"/>
+            <xs:element type="xs:string" name="maxSalary"/>
+        </xs:sequence>
+        <xs:attribute type="xs:string" name="id" use="optional"/>
+    </xs:complexType>
+    <xs:complexType name="JobsType">
+        <xs:sequence>
+            <xs:element type="jobsType" name="jobs" maxOccurs="unbounded" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>

@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7011362b-3fbd-4e17-bc4f-027927f8a0b0" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="24IARfxfDyliTsYW4Uz5PSixoRi" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager" selected="TestNG.AssertionsExample">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="TheChessStore" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="TheChessStore" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AssertionsExample" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TheChessStore" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AssertionsExample" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ListenerTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TheChessStore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="listeners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="listeners" />
+      <option name="MAIN_CLASS_NAME" value="listeners.ListenerTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ListenerTest.test1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TheChessStore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="listeners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="listeners" />
+      <option name="MAIN_CLASS_NAME" value="listeners.ListenerTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParallelTest1.logoTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TheChessStore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="paralleltesting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="paralleltesting" />
+      <option name="MAIN_CLASS_NAME" value="paralleltesting.ParallelTest1" />
+      <option name="METHOD_NAME" value="logoTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/christopher/Desktop/TheChessStore/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TheChessStore" />
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners>
+        <listener class="org.testng.reporters.EmailableReporter" />
+        <listener class="org.testng.reporters.FailedReporter" />
+      </listeners>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="TestNG./Users/christopher/Desktop/TheChessStore/testng.xml" />
+      <item itemvalue="TestNG.ParallelTest1.logoTest" />
+      <item itemvalue="TestNG.ListenerTest.test1" />
+      <item itemvalue="TestNG.ListenerTest" />
+      <item itemvalue="TestNG.AssertionsExample" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.AssertionsExample" />
+        <item itemvalue="TestNG./Users/christopher/Desktop/TheChessStore/testng.xml" />
+        <item itemvalue="TestNG.ListenerTest" />
+        <item itemvalue="TestNG.ListenerTest.test1" />
+        <item itemvalue="TestNG.ParallelTest1.logoTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7011362b-3fbd-4e17-bc4f-027927f8a0b0" name="Default Changelist" comment="" />
+      <created>1643307724652</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1643307724652</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.log" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="263" y="31" key="#Plugins" timestamp="1643314091649">
+      <screen x="0" y="25" width="1280" height="722" />
+    </state>
+    <state x="263" y="31" key="#Plugins/0.25.1280.722@0.25.1280.722" timestamp="1643314091649" />
+    <state x="128" y="0" key="#Project_Structure" timestamp="1643563078565">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="128" y="0" key="#Project_Structure/0.0.1280.800@0.0.1280.800" timestamp="1643563078565" />
+    <state x="104" y="59" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1643388131604">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="104" y="59" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.800@0.0.1280.800" timestamp="1643388131604" />
+    <state x="100" y="100" width="1080" height="600" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1643557650809">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="100" y="100" width="1080" height="600" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1280.800@0.0.1280.800" timestamp="1643557650809" />
+    <state x="589" y="96" key="#com.intellij.ide.util.MemberChooser" timestamp="1643316119146">
+      <screen x="0" y="25" width="1280" height="722" />
+    </state>
+    <state x="589" y="96" key="#com.intellij.ide.util.MemberChooser/0.25.1280.722@0.25.1280.722" timestamp="1643316119146" />
+    <state x="377" y="194" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1643387076377">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="377" y="194" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1280.800@0.0.1280.800" timestamp="1643387076377" />
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1643564711873">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1643564711873" />
+    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1643564711871">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1643564711871" />
+    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1643564711871">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1643564711871" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1643564711872">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1643564711872" />
+    <state width="1238" height="264" key="GridCell.Tab.1.bottom" timestamp="1643493237208">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="264" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1643493237208" />
+    <state width="1238" height="264" key="GridCell.Tab.1.center" timestamp="1643493237207">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="264" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1643493237207" />
+    <state width="1238" height="264" key="GridCell.Tab.1.left" timestamp="1643493237207">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="264" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1643493237207" />
+    <state width="1238" height="264" key="GridCell.Tab.1.right" timestamp="1643493237208">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="264" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1643493237208" />
+    <state x="128" y="25" width="1024" height="722" key="SettingsEditor" timestamp="1643564325137">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="128" y="25" width="1024" height="722" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1643564325137" />
+    <state x="128" y="48" key="SettingsEditor/0.25.1280.722@0.25.1280.722" timestamp="1643336315780" />
+  </component>
+</project>

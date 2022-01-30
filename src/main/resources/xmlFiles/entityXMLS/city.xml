@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<City>
+    <city id="1">
+        <countryID>1</countryID>
+        <cityName>Scottsdale</cityName>
+        <location>33.68342,-111.95136</location>
+        <postalCode>85054</postalCode>
+        <lastUpdate>2021-07-25T14:40:08.479Z</lastUpdate>
+    </city>
+    <city id="2">
+        <countryID>2</countryID>
+        <cityName>Garland</cityName>
+        <location>32.93313,-96.62129</location>
+        <postalCode>75040</postalCode>
+        <lastUpdate>2021-12-13T14:38:44.219Z</lastUpdate>
+    </city>
+    <city id="3">
+        <countryID>3</countryID>
+        <cityName>Rochester</cityName>
+        <location>43.15440,-77.61560</location>
+        <postalCode>14602</postalCode>
+        <lastUpdate>2021-07-02T18:47:08.617Z</lastUpdate>
+    </city>
+    <city id="4">
+        <countryID>4</countryID>
+        <cityName>Buffalo</cityName>
+        <location>42.89446,-78.88692</location>
+        <postalCode>14201</postalCode>
+        <lastUpdate>2021-02-15T01:24:28.443Z</lastUpdate>
+    </city>
+    <city id="5">
+        <countryID>5</countryID>
+        <cityName>Atlanta</cityName>
+        <location>33.74860,-84.38840</location>
+        <postalCode>30301</postalCode>
+        <lastUpdate>2021-10-11T10:55:09.784Z</lastUpdate>
+    </city>
+    <city id="6">
+        <countryID>6</countryID>
+        <cityName>New York</cityName>
+        <location>40.75080,-73.99612</location>
+        <postalCode>10001</postalCode>
+        <lastUpdate>2021-05-17T01:56:51.774Z</lastUpdate>
+    </city>
+    <city id="7">
+        <countryID>7</countryID>
+        <cityName>Jersey City</cityName>
+        <location>40.74472,-74.02999</location>
+        <postalCode>07030</postalCode>
+        <lastUpdate>2021-12-25T07:24:48.461Z</lastUpdate>
+    </city>
+    <city id="8">
+        <countryID>8</countryID>
+        <cityName>Colorado Springs</cityName>
+        <location>38.82989,-104.93665</location>
+        <postalCode>80829</postalCode>
+        <lastUpdate>2021-08-05T08:19:27.546Z</lastUpdate>
+    </city>
+    <city id="9">
+        <countryID>9</countryID>
+        <cityName>St. Louis</cityName>
+        <location>38.63137,-90.19238</location>
+        <postalCode>63101</postalCode>
+        <lastUpdate>2021-02-27T19:33:25.083Z</lastUpdate>
+    </city>
+    <city id="10">
+        <countryID>10</countryID>
+        <cityName>Philadelphia</cityName>
+        <location>39.95250,-75.16440</location>
+        <postalCode>19019</postalCode>
+        <lastUpdate>2021-09-21T12:29:07.849Z</lastUpdate>
+    </city>
+</City>

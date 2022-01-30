@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<ProductCategory>
+    <prodCategory id="1">
+        <productID>1</productID>
+        <title>TheChessShop.com</title>
+        <metaTitle>Walnut Superior Chess Board</metaTitle>
+        <productName>Walnut Burl and Maple Superior Contemporary Chess Board</productName>
+    </prodCategory>
+    <prodCategory id="2">
+        <productID>2</productID>
+        <title>TheChessShop.com</title>
+        <metaTitle>2021 St.Louis Rapid Pieces</metaTitle>
+        <productName>2021 St.Louis Rapid and Blitz Official Chess Pieces</productName>
+    </prodCategory>
+    <prodCategory id="3">
+        <productID>3</productID>
+        <title>TheChessShop.com</title>
+        <metaTitle>DGT Chess Clock</metaTitle>
+        <productName>DGT North American Digital Chess Clock</productName>
+    </prodCategory>
+    <prodCategory id="4">
+        <productID>4</productID>
+        <title>TheChessShop.com</title>
+        <metaTitle>Mastering the Middle Game</metaTitle>
+        <productName>Mastering the Middle Game 1 - EMPIRE CHESS</productName>
+    </prodCategory>
+    <prodCategory id="5">
+        <productID>5</productID>
+        <title>TheChessShop.com</title>
+        <metaTitle>Chess Base 16</metaTitle>
+        <productName>Chess Base 16 Premium 2022 Edition</productName>
+    </prodCategory>
+    <prodCategory id="6">
+        <productID>6</productID>
+        <title>TheChessShop.com</title>
+        <metaTitle>E-Gift Card</metaTitle>
+        <productName>Email Gift Card</productName>
+    </prodCategory>
+    <prodCategory id="7">
+        <productID>7</productID>
+        <title>TheChessShop.com</title>
+        <metaTitle>Chess Bags</metaTitle>
+        <productName>Competition Chess Bag</productName>
+    </prodCategory>
+    <prodCategory id="8">
+        <productID>8</productID>
+        <title>TheChessShop.com</title>
+        <metaTitle>USCF Coffee Cup</metaTitle>
+        <productName>US Chess Federation Coffee Cup</productName>
+    </prodCategory>
+    <prodCategory id="9">
+        <productID>9</productID>
+        <title>TheChessShop.com</title>
+        <metaTitle>Anthology of Chess</metaTitle>
+        <productName>Anthology of Chess Problems 2345</productName>
+    </prodCategory>
+    <prodCategory id="10">
+        <productID>10</productID>
+        <title>TheChessShop.com</title>
+        <metaTitle>Chess Score Pad</metaTitle>
+        <productName>Chess Players Score Pad</productName>
+    </prodCategory>
+</ProductCategory>

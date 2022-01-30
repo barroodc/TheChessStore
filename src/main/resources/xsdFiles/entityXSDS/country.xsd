@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="Country" type="CountryType"/>
+    <xs:complexType name="countryType">
+        <xs:sequence>
+            <xs:element name="countryName">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="United States"/>
+                        <xs:enumeration value="Russia"/>
+                        <xs:enumeration value="Italy"/>
+                        <xs:enumeration value="Turkey"/>
+                        <xs:enumeration value="Lebanon"/>
+                        <xs:enumeration value="Iceland"/>
+                        <xs:enumeration value="Paraguay"/>
+                        <xs:enumeration value="Switzerland"/>
+                        <xs:enumeration value="Israel"/>
+                        <xs:enumeration value="Pakistan"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="currencyName">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="Dollar"/>
+                        <xs:enumeration value="Ruble"/>
+                        <xs:enumeration value="Euro"/>
+                        <xs:enumeration value="Lira"/>
+                        <xs:enumeration value="Pound"/>
+                        <xs:enumeration value="Krona"/>
+                        <xs:enumeration value="Guarani"/>
+                        <xs:enumeration value="Franc"/>
+                        <xs:enumeration value="New Shekel"/>
+                        <xs:enumeration value="Rupee"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="phoneCode">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="+1"/>
+                        <xs:enumeration value="+7"/>
+                        <xs:enumeration value="+39"/>
+                        <xs:enumeration value="+90"/>
+                        <xs:enumeration value="+961"/>
+                        <xs:enumeration value="+354"/>
+                        <xs:enumeration value="+595"/>
+                        <xs:enumeration value="+41"/>
+                        <xs:enumeration value="+972"/>
+                        <xs:enumeration value="+92"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="lastUpdate">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="2021-01-17T21:28:45.451Z"/>
+                        <xs:enumeration value="2021-05-05T14:51:12.345Z"/>
+                        <xs:enumeration value="2021-07-08T23:13:33.072Z"/>
+                        <xs:enumeration value="2021-01-18T09:14:57.902Z"/>
+                        <xs:enumeration value="2021-12-01T00:47:12.307Z"/>
+                        <xs:enumeration value="2021-06-13T05:10:08.185Z"/>
+                        <xs:enumeration value="2021-11-17T02:06:33.530Z"/>
+                        <xs:enumeration value="2021-09-15T23:22:17.852Z"/>
+                        <xs:enumeration value="2021-11-10T10:44:37.699Z"/>
+                        <xs:enumeration value="2021-10-13T07:08:45.177Z"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+        </xs:sequence>
+        <xs:attribute type="xs:string" name="id" use="optional"/>
+    </xs:complexType>
+    <xs:complexType name="CountryType">
+        <xs:sequence>
+            <xs:element type="countryType" name="country" maxOccurs="unbounded" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>

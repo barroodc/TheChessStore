@@ -1,0 +1,243 @@
+
+MYSQL FUNCTIONS
+_________________
+
+Topic #1: INSERT Clause
+
+INSERT INTO inventory(product_name, description, price, amount_in_stock)
+VALUES('chess board', 'handcrafted in Norway', 549.99, 67);
+
+
+INSERT INTO product_review(overall_rating, title, parent_id, time_created, user_review)
+VALUES(9.7, 'Middle Game Theory', 5, '2021-01-01 15:45:10', 'Excellent beginners course to improve middle game');
+
+
+INSERT INTO product_supplier(supplier_name, category_of_products)
+VALUES ('The Chess League Products', 'Chess Boards');
+
+
+INSERT INTO address (street_address, building_number, last_update)
+VALUES('16 Queensmaker Road', '4D', 'N/A');
+
+
+INSERT INTO jobs(job_title, min_salary, max_salary)
+VALUES('Software Engineer', 50000.00, 80000.00);
+
+
+INSERT INTO departments(department_name)
+VALUES('Accounting');
+
+
+INSERT INTO checkout_cart(number_of_items, mobile, email, country, time_created, cart_updated, is_gift)
+VALUES(14, '2345649876', 'bobsmith@yahoo.com', 'United States', '2021-05-01 09:05:27', '2021-05-01 09:45:38', TRUE);
+
+
+
+INSERT INTO user(first_name, middle_name, last_name, mobile, email, password, user_name, time_created, last_login)
+VALUES('Amanda', 'Michelle', 'Smith', '6754323598', 'ams12345@hotmail.com', 'kittens13', 'chessslayer98', '2015-01-01 12:15:42', '2022-01-01 18:08:01');
+
+
+
+INSERT INTO items_in_cart(sku, price, subtotal_of_items, discount, quantity, time_created, cart_updated)
+VALUES('4a45yk42l1', 45.00 , 135.00, 5.0, 3.0, '2022-01-04 14:25:18', '2022-01-04 14:34:59');
+
+
+
+INSERT INTO employees(mobile, email, hire_date, job_id, salary, manager_id, department_id)
+VALUES('8467654839', 'jacksmith@chessclub.com', '2012-05-27', '76A5439', 50000.00, '869T445', '123456');
+
+
+Topic #2 Update Clause
+
+UPDATE checkout_cart
+SET email = 'chrisjacobs@gmail.com'
+WHERE id = 1;
+
+UPDATE jobs
+SET min_salary = 65000.00
+WHERE id = 2;
+
+UPDATE user
+SET first_name = 'Chris'
+WHERE id = 3;
+
+UPDATE departments
+SET department_name = 'General Engineering'
+WHERE id = 4;
+
+UPDATE product_category
+SET title = 'Chess Mastery Volume 8'
+WHERE id = 5;
+
+UPDATE transaction
+SET approval_status = 'Approved'
+WHERE id = 6;
+
+UPDATE city
+SET city_name = 'Kingsville'
+WHERE id = 7;
+
+UPDATE product_review
+SET overall_rating = 8.7
+WHERE id = 8;
+
+UPDATE order_item
+SET price = 45.99
+WHERE id = 9;
+
+UPDATE invoice
+SET discount = 5.25
+WHERE id = 10;
+
+
+Topic #3 Delete Clause
+
+DELETE from city
+WHERE zip_code = '09832';
+
+DELETE from jobs
+WHERE job_title = 'Marketing';
+
+DELETE from product_supplier
+WHERE supplier_name = 'Kingsmen';
+
+DELETE from items_in_cart
+WHERE discount = 8.5;
+
+DELETE from inventory
+WHERE product_name = 'Tickets to the 2021 World Chess Championships in Dubai';
+
+DELETE from order
+WHERE postal_code = '54395';
+
+DELETE from checkout_cart
+WHERE email = 'scammer@gmail.com';
+
+DELETE from employees
+WHERE salary = 45000.00;
+
+DELETE from invoice
+WHERE tax = 5.7;
+
+DELETE from product_supplier
+WHERE category_of_products = '1944 Chess Board Collection';
+
+
+Topic #4: BIG JOIN
+
+SELECT id, first_name, last name, salary
+FROM employees e
+LEFT JOIN jobs j
+ON e.id = j.id
+
+UNION
+
+SELECT id, first_name, last name, salary
+FROM employees e
+LEFT JOIN jobs j
+ON e.id = j.id
+
+
+Topic #5: 7 Statements with aggregation functions without GROUP BY clause
+
+SELECT COUNT(amount_in_stock) as "Total Number of Items"
+FROM inventory;
+
+SELECT SUM(salary) as "Combined Salary"
+FROM employees;
+
+SELECT MIN(price) as "Lowest Cost Item"
+FROM inventory;
+
+SELECT AVG(overall_rating) as "Average Review Score"
+FROM product_review;
+
+SELECT STD(price) as "Standard Deviation"
+FROM order_item;
+
+SELECT GROUP_CONCAT(DISTINCT country_name) as "Names of Countries Serviced"
+FROM country;
+
+SELECT MAX(max_salary) as Highest_Compensation_Possible
+FROM jobs;
+
+
+Topic #6: 7 Statements with aggregation functions with GROUP BY clause
+
+SELECT COUNT(id), country_name
+FROM country
+GROUP BY country_name;
+
+SELECT id, SUM(price) as "Price of Product"
+FROM inventory
+GROUP BY id;
+
+SELECT job_name, MIN(min_salary)
+FROM jobs
+GROUP BY job_name;
+
+SELECT id,ROUND(AVG(overall_rating),2) as "Overall Rating"
+FROM product_review
+GROUP BY id;
+
+SELECT FORMAT(STD(price),2)
+FROM (SELECT id, COUNT(*) price
+FROM order_item
+GROUP BY id) t;
+
+SELECT id,GROUP_CONCAT(DISTINCT country_name) as "Names of Countries Serviced"
+FROM country
+GROUP BY id
+ORDER BY GROUP_CONCAT(DISTINCT country_name) ASC;
+
+SELECT id, MAX(max_salary)
+FROM jobs
+GROUP BY id;
+
+
+
+Topic #7: Use the Having Clause 7 times
+
+SELECT price FROM order_item
+GROUP BY discount
+HAVING COUNT > 8
+ORDER BY COUNT DESC;
+
+SELECT job_title, MAX(max_salary) AS "Highest Salary Possible"
+FROM jobs
+GROUP BY job_title
+HAVING MAX(max_salary) > 50000;
+
+SELECT amount_in_stock, SUM(price) as Price_of_Product
+FROM inventory
+GROUP BY amount_in_stock
+HAVING SUM(price) > 100;
+
+SELECT COUNT(id) AS "Order Number", country
+FROM checkout_cart
+GROUP BY country
+HAVING COUNT(id) > 3;
+
+SELECT last_name, COUNT(*)
+FROM user
+GROUP BY last_name
+HAVING COUNT(*) > 3;
+
+SELECT departments_id, first_name, last_name,
+COUNT(id) as "Department Belonged To"
+FROM employees
+WHERE departments_id IS NOT NULL
+GROUP BY departments_id;
+
+SELECT price FROM invoice
+GROUP BY pre_tax
+HAVING COUNT > 15
+ORDER BY COUNT ASC;
+
+
+
+
+
+
+
+
