@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7011362b-3fbd-4e17-bc4f-027927f8a0b0" name="Default Changelist" comment="" />
+    <list default="true" id="7011362b-3fbd-4e17-bc4f-027927f8a0b0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/all.log" beforeDir="false" afterPath="$PROJECT_DIR$/all.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,6 +28,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -33,6 +42,7 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="24IARfxfDyliTsYW4Uz5PSixoRi" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
@@ -40,12 +50,13 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="TestNG.AssertionsExample">
+  <component name="RunManager" selected="TestNG./Users/christopher/Desktop/TheChessStore/testng.xml">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="TheChessStore" />
       <option name="VM_PARAMETERS" />
@@ -187,8 +198,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.AssertionsExample" />
         <item itemvalue="TestNG./Users/christopher/Desktop/TheChessStore/testng.xml" />
+        <item itemvalue="TestNG.AssertionsExample" />
         <item itemvalue="TestNG.ListenerTest" />
         <item itemvalue="TestNG.ListenerTest.test1" />
         <item itemvalue="TestNG.ParallelTest1.logoTest" />
@@ -234,22 +245,26 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="377" y="194" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1280.800@0.0.1280.800" timestamp="1643387076377" />
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1643564711873">
+    <state x="493" y="301" key="Github.ShareDialog" timestamp="1643567487752">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1643564711873" />
-    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1643564711871">
+    <state x="493" y="301" key="Github.ShareDialog/0.0.1280.800@0.0.1280.800" timestamp="1643567487752" />
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1643578786788">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1643564711871" />
-    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1643564711871">
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1643578786788" />
+    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1643578786787">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1643564711871" />
-    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1643564711872">
+    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1643578786787" />
+    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1643578786786">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1643564711872" />
+    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1643578786786" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1643578786787">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1643578786787" />
     <state width="1238" height="264" key="GridCell.Tab.1.bottom" timestamp="1643493237208">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
